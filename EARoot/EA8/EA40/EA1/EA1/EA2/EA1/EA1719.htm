@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Keep Customers</title>
+<link href="../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Keep Customers </h1>
+			<!-- <img class="header_image" src="../../../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../../EA1.htm">Domain</a> / <a href="../../../../../EA136.htm">Business Ingredients & Building Block</a> / <a href="../../../../EA1658.htm">Courses & Training</a> / <a href="../../../EA1669.htm">Steve Blank - Owner&#39;s Manual</a> / <a href="../../EA1677.htm">Customer Discovery</a> / <a href="../EA1683.htm">Behaviour</a> / <a href="EA1692.htm">P1-State Business Model Hypothesis</a> / <a href="EA1719.htm">Keep Customers</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<a href="EA1692.htm">P1-State Business Model Hypothesis</a></ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Keep Customers  : Public   Activity</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">17/08/2025 00:51:44</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">17/08/2025 02:15:56</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">k_war</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{9BE5D648-CA02-4da0-A22C-5A09E78DFBF7}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA1690.htm">P1-State Business Model Hypothesis</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">A steady stream of product upgrades and enhancements should always keep the product ahead of competition. These are core-value creation activities and should be address in the value proposition hypothesis. &lt;br/&gt;&lt;br/&gt;Strengthen and bolster retention. This can be activities such as outbound calls to ensure they are happy or complex as a multi-tiered loyalty-points programs to reward repeat purchases. Customer loyalty programs such as points, rewards, discounts as well as long-term retention incentives like multi-year contracts. &lt;br/&gt;&lt;br/&gt;Are there things partners can do or other resources in business model?&lt;br/&gt;&lt;br/&gt;Send Product update bulletins: Create small tip sheets or user notes on how customers are making the most of the product. Send them to all users. &lt;br/&gt;&lt;br/&gt;Customer lock-in/high switching costs: Consider tactics for locking in customers to your product or solution through long-term contracts, unique technology or data that can&#39;t be easily transferred. &lt;br/&gt;&lt;br/&gt;For mobile/app based products, mobile/app push notifications give developers the ability to push messages to users even when the app is closed. &lt;br/&gt;&lt;br/&gt;Try to build some kind of retention metrics mechanism in app/website to measure signs of dwindling visits, page views, increased time between visits, average customer life, lifetime value, increase in complaints, help or support tickets&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;its 5-10X cheapter to keep a customer than to acquire one. &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent != null ? parent.toggleItem('LinkedDocument') : toggleItem('LinkedDocument');" id="LinkedDocumentTitle">Linked Document</li>
+			<li onClick="parent != null ? parent.toggleItem('AssociationsTo') : toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent != null ? parent.toggleItem('CustomProperties') : toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent != null ? parent.toggleItem('Links') : toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="LinkedDocumentTable">
+			<iframe src="../../../../../../../linkdocs/EAID_9BE5D648_CA02_4da0_A22C_5A09E78DFBF7.htm" frameborder="0" id="linkDocIFrame"></iframe>
+		</div>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA1703.htm">Customer Relationships Hypothesis</a><br />
+						Activity &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink712" /></button>Details:
+							<div id="detailsDIVLink712" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isReadOnly:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA1703.htm">Customer Relationships Hypothesis</a></td>
+					<td width="10%" class="TableRow" valign="top">Activity</td>
+					<td width="10%" class="TableRow" valign="top">Strong</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

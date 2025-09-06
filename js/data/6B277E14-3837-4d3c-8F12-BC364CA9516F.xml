@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.19.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA19/EA4/EA857.htm", "182.png", "455", "0", "", "CompositeStructure diagram0","{153AAE0D-5F2A-47ab-8CD5-3E6BAD217681}");
+tocTab[tocTab.length] = new Array("0.8.19.4:2", "", "a is second moe", "EARoot/EA8/EA19/EA4/EA860.htm", "118.png", "E4836", "0", "", "Part0","{6C55001F-D3DA-4426-8CA0-FA05C189E279}");
+tocTab[tocTab.length] = new Array("0.8.19.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA19/EA4/EA861.htm", "118.png", "E4834", "0", "", "Part0","{61B3AFD6-6F31-44d0-90C6-116F2AB17347}");
+tocTab[tocTab.length] = new Array("0.8.19.4:4", "", "q is third moe", "EARoot/EA8/EA19/EA4/EA862.htm", "118.png", "E4837", "0", "", "Part0","{9F2EC7FE-6E57-45cd-9444-D8B0E5363049}");
+tocTab[tocTab.length] = new Array("0.8.19.4:5", "", "this is first moe", "EARoot/EA8/EA19/EA4/EA863.htm", "118.png", "E4835", "0", "", "Part0","{64BC1292-6ED0-4958-B8F9-C511E9B652DA}");
+tocTab[tocTab.length] = new Array("0.8.19.4:6", "", "Port4", "EARoot/EA8/EA19/EA4/EA864.htm", "95.png", "E4841", "E4834", "", "Port0","{353D9C0A-C70D-476f-B065-AC6C4246F023}");
+tocTab[tocTab.length] = new Array("0.8.19.4:7", "", "Port5", "EARoot/EA8/EA19/EA4/EA865.htm", "95.png", "E4842", "E4834", "", "Port0","{D1D4A197-96D4-4224-B17B-CC027A1F768D}");
+tocTab[tocTab.length] = new Array("0.8.19.4:8", "", "Port6", "EARoot/EA8/EA19/EA4/EA866.htm", "95.png", "E4843", "E4834", "", "Port0","{3A54BBFC-0426-4885-BBAE-4214284C4123}");
+tocTab[tocTab.length] = new Array("0.8.19.4:9", "", "Port1", "EARoot/EA8/EA19/EA4/EA867.htm", "95.png", "E4838", "E4835", "", "Port0","{BFC6EC9A-E9E5-4be7-B18B-9CA5F7631F7C}");
+tocTab[tocTab.length] = new Array("0.8.19.4:10", "", "Port2", "EARoot/EA8/EA19/EA4/EA868.htm", "95.png", "E4839", "E4836", "", "Port0","{0F234A0C-041F-4e57-8C76-3032100B6105}");
+tocTab[tocTab.length] = new Array("0.8.19.4:11", "", "Port3", "EARoot/EA8/EA19/EA4/EA869.htm", "95.png", "E4840", "E4837", "", "Port0","{8BFDBFE1-6566-4df4-8069-7DC64CEF4F58}");

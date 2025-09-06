@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.27.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA27/EA4/EA1031.htm", "182.png", "463", "0", "", "CompositeStructure diagram0","{C4F8E718-5338-4bd4-931F-795122D84A72}");
+tocTab[tocTab.length] = new Array("0.8.27.4:2", "", "a is second moe", "EARoot/EA8/EA27/EA4/EA1034.htm", "118.png", "E4956", "0", "", "Part0","{22DDFDAE-21BE-4c7c-8C61-F92B3CA475DE}");
+tocTab[tocTab.length] = new Array("0.8.27.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA27/EA4/EA1035.htm", "118.png", "E4954", "0", "", "Part0","{CE37D6B7-337B-42b9-9037-7BCCB1711364}");
+tocTab[tocTab.length] = new Array("0.8.27.4:4", "", "q is third moe", "EARoot/EA8/EA27/EA4/EA1036.htm", "118.png", "E4957", "0", "", "Part0","{AA4995EE-3001-42b0-8F5A-4E53C6BED930}");
+tocTab[tocTab.length] = new Array("0.8.27.4:5", "", "this is first moe", "EARoot/EA8/EA27/EA4/EA1037.htm", "118.png", "E4955", "0", "", "Part0","{5A70D56F-A73D-4d76-A5FE-78ABCBDD8EE9}");
+tocTab[tocTab.length] = new Array("0.8.27.4:6", "", "Port4", "EARoot/EA8/EA27/EA4/EA1038.htm", "95.png", "E4961", "E4954", "", "Port0","{29ACD21D-7932-435c-9E99-5EFAD745C0FA}");
+tocTab[tocTab.length] = new Array("0.8.27.4:7", "", "Port5", "EARoot/EA8/EA27/EA4/EA1039.htm", "95.png", "E4962", "E4954", "", "Port0","{CEC792E5-C208-4fef-90F8-103DD89EA015}");
+tocTab[tocTab.length] = new Array("0.8.27.4:8", "", "Port6", "EARoot/EA8/EA27/EA4/EA1040.htm", "95.png", "E4963", "E4954", "", "Port0","{611BB9AF-38F3-4088-8A6D-8E3DA742BA73}");
+tocTab[tocTab.length] = new Array("0.8.27.4:9", "", "Port1", "EARoot/EA8/EA27/EA4/EA1041.htm", "95.png", "E4958", "E4955", "", "Port0","{CE643AA0-8705-4387-9C67-1530B7820C51}");
+tocTab[tocTab.length] = new Array("0.8.27.4:10", "", "Port2", "EARoot/EA8/EA27/EA4/EA1042.htm", "95.png", "E4959", "E4956", "", "Port0","{D3A6AC0F-FF39-4a4c-B193-A1AF4E823D95}");
+tocTab[tocTab.length] = new Array("0.8.27.4:11", "", "Port3", "EARoot/EA8/EA27/EA4/EA1043.htm", "95.png", "E4960", "E4957", "", "Port0","{502E9D4B-DCB1-4aa6-926A-F00A5099638F}");

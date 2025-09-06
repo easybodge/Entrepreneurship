@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.11.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA11/EA4/EA590.htm", "182.png", "445", "0", "", "CompositeStructure diagram0","{FD343C45-4D5C-4e6f-9589-2B8E32091DB7}");
+tocTab[tocTab.length] = new Array("0.8.11.4:2", "", "a is second moe", "EARoot/EA8/EA11/EA4/EA593.htm", "118.png", "E4686", "0", "", "Part0","{3C20249B-CB71-49fb-A704-FB966666E293}");
+tocTab[tocTab.length] = new Array("0.8.11.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA11/EA4/EA594.htm", "118.png", "E4684", "0", "", "Part0","{81CF0D1C-92FB-4f46-921E-04E4627498AE}");
+tocTab[tocTab.length] = new Array("0.8.11.4:4", "", "q is third moe", "EARoot/EA8/EA11/EA4/EA595.htm", "118.png", "E4687", "0", "", "Part0","{E33C7A5E-B3CE-427d-AA2B-AE37233C16C7}");
+tocTab[tocTab.length] = new Array("0.8.11.4:5", "", "this is first moe", "EARoot/EA8/EA11/EA4/EA596.htm", "118.png", "E4685", "0", "", "Part0","{B2D308C8-8E74-4c24-9792-06D100902EEC}");
+tocTab[tocTab.length] = new Array("0.8.11.4:6", "", "Port4", "EARoot/EA8/EA11/EA4/EA597.htm", "95.png", "E4691", "E4684", "", "Port0","{592CB0C6-441B-44fb-A2BF-0B89BA39328F}");
+tocTab[tocTab.length] = new Array("0.8.11.4:7", "", "Port5", "EARoot/EA8/EA11/EA4/EA598.htm", "95.png", "E4692", "E4684", "", "Port0","{AB69B0B4-4F7E-4895-BCAB-E74FC90C9ED2}");
+tocTab[tocTab.length] = new Array("0.8.11.4:8", "", "Port6", "EARoot/EA8/EA11/EA4/EA599.htm", "95.png", "E4693", "E4684", "", "Port0","{A3F0A6D1-5409-4122-B3CC-C9FCE6A3C9F5}");
+tocTab[tocTab.length] = new Array("0.8.11.4:9", "", "Port1", "EARoot/EA8/EA11/EA4/EA600.htm", "95.png", "E4688", "E4685", "", "Port0","{1F82D2A6-93CD-403f-8AEC-322116DBC016}");
+tocTab[tocTab.length] = new Array("0.8.11.4:10", "", "Port2", "EARoot/EA8/EA11/EA4/EA601.htm", "95.png", "E4689", "E4686", "", "Port0","{DAFB27CE-13C4-46c5-AA56-FE30F5D8A555}");
+tocTab[tocTab.length] = new Array("0.8.11.4:11", "", "Port3", "EARoot/EA8/EA11/EA4/EA602.htm", "95.png", "E4690", "E4687", "", "Port0","{5166791B-D7E0-49c5-948F-C1EFEA2514A9}");

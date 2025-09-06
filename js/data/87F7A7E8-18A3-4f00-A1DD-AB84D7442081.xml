@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.8.38.1", "", "1- Project Management", "EARoot/EA8/EA38/EA1/EA1314.htm", "4.png", "", "", "{FD2C6FD7-2B35-4565-8CFE-747C835FC2AA}", "Package");
+tocTab[tocTab.length] = new Array("0.8.38.2", "", "2- Excellent and State of the Art", "EARoot/EA8/EA38/EA2/EA1315.htm", "4.png", "", "", "{7F702A65-EDFD-451b-B77C-1DA6A6B85FEA}", "Package");
+tocTab[tocTab.length] = new Array("0.8.38.3", "", "3- Impact and KPI", "EARoot/EA8/EA38/EA3/EA1316.htm", "4.png", "", "", "{EEFD97E0-BAEB-4c2d-A7C8-3256C2B49EB2}", "Package");
+tocTab[tocTab.length] = new Array("0.8.38.4", "", "4- Demo Days", "EARoot/EA8/EA38/EA4/EA1317.htm", "4.png", "", "", "{28CE632C-FFDD-4046-85FC-90FB39DE7698}", "Package");
+tocTab[tocTab.length] = new Array("0.8.38.5", "", "5- Publications", "EARoot/EA8/EA38/EA5/EA1318.htm", "4.png", "", "", "{A4BBC14C-DF3A-4d38-8A48-B7A55352ACC8}", "Package");

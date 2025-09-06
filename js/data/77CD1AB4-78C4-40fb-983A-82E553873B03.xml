@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.26.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA26/EA4/EA1010.htm", "182.png", "462", "0", "", "CompositeStructure diagram0","{68A8972F-E6C2-453b-B496-283CB392C573}");
+tocTab[tocTab.length] = new Array("0.8.26.4:2", "", "a is second moe", "EARoot/EA8/EA26/EA4/EA1013.htm", "118.png", "E4941", "0", "", "Part0","{FE7DC98F-6802-49b3-95E1-0B87A344730E}");
+tocTab[tocTab.length] = new Array("0.8.26.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA26/EA4/EA1014.htm", "118.png", "E4939", "0", "", "Part0","{A0DBB5B6-BAAB-4a20-9599-BE31DD21A89F}");
+tocTab[tocTab.length] = new Array("0.8.26.4:4", "", "q is third moe", "EARoot/EA8/EA26/EA4/EA1015.htm", "118.png", "E4942", "0", "", "Part0","{0B06718C-A67D-41d3-B67C-9CBFC9BB807B}");
+tocTab[tocTab.length] = new Array("0.8.26.4:5", "", "this is first moe", "EARoot/EA8/EA26/EA4/EA1016.htm", "118.png", "E4940", "0", "", "Part0","{BBA5C81F-40AD-4c42-A180-4DD37AE68A10}");
+tocTab[tocTab.length] = new Array("0.8.26.4:6", "", "Port4", "EARoot/EA8/EA26/EA4/EA1017.htm", "95.png", "E4946", "E4939", "", "Port0","{13C1DDB8-2A69-48c1-8304-C7F727418137}");
+tocTab[tocTab.length] = new Array("0.8.26.4:7", "", "Port5", "EARoot/EA8/EA26/EA4/EA1018.htm", "95.png", "E4947", "E4939", "", "Port0","{AC4ACFFD-EF99-4a33-9DC2-971D9D8394EE}");
+tocTab[tocTab.length] = new Array("0.8.26.4:8", "", "Port6", "EARoot/EA8/EA26/EA4/EA1019.htm", "95.png", "E4948", "E4939", "", "Port0","{59363FD0-BFD0-4cdf-BF43-855395408BA3}");
+tocTab[tocTab.length] = new Array("0.8.26.4:9", "", "Port1", "EARoot/EA8/EA26/EA4/EA1020.htm", "95.png", "E4943", "E4940", "", "Port0","{595A8502-CD83-491e-9596-B08BDBE2EC7F}");
+tocTab[tocTab.length] = new Array("0.8.26.4:10", "", "Port2", "EARoot/EA8/EA26/EA4/EA1021.htm", "95.png", "E4944", "E4941", "", "Port0","{21FD6861-4774-4176-91F1-485A7E256008}");
+tocTab[tocTab.length] = new Array("0.8.26.4:11", "", "Port3", "EARoot/EA8/EA26/EA4/EA1022.htm", "95.png", "E4945", "E4942", "", "Port0","{0FC4613B-4A84-46cc-B0FB-6787AC5C8177}");

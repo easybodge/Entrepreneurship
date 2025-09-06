@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.36.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA36/EA4/EA1221.htm", "182.png", "472", "0", "", "CompositeStructure diagram0","{B80B49F8-F194-4dde-8403-C09D311F8E4A}");
+tocTab[tocTab.length] = new Array("0.8.36.4:2", "", "a is second moe", "EARoot/EA8/EA36/EA4/EA1224.htm", "118.png", "E5091", "0", "", "Part0","{10395182-AE71-4e9a-B520-AAFDBE0DA370}");
+tocTab[tocTab.length] = new Array("0.8.36.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA36/EA4/EA1225.htm", "118.png", "E5089", "0", "", "Part0","{464FB1AD-F5F4-46a9-8C88-ECC9A0B517A1}");
+tocTab[tocTab.length] = new Array("0.8.36.4:4", "", "q is third moe", "EARoot/EA8/EA36/EA4/EA1226.htm", "118.png", "E5092", "0", "", "Part0","{470AA657-DA65-48df-B627-7B2EDDE569C1}");
+tocTab[tocTab.length] = new Array("0.8.36.4:5", "", "this is first moe", "EARoot/EA8/EA36/EA4/EA1227.htm", "118.png", "E5090", "0", "", "Part0","{D6F57B65-09D8-4872-9210-BC82E79E7844}");
+tocTab[tocTab.length] = new Array("0.8.36.4:6", "", "Port4", "EARoot/EA8/EA36/EA4/EA1228.htm", "95.png", "E5096", "E5089", "", "Port0","{9FF39631-3B96-4d0a-AC74-B5ADF33F3D5B}");
+tocTab[tocTab.length] = new Array("0.8.36.4:7", "", "Port5", "EARoot/EA8/EA36/EA4/EA1229.htm", "95.png", "E5097", "E5089", "", "Port0","{AEDD35D2-0D77-4c2e-9CC4-C8F2FD02F113}");
+tocTab[tocTab.length] = new Array("0.8.36.4:8", "", "Port6", "EARoot/EA8/EA36/EA4/EA1230.htm", "95.png", "E5098", "E5089", "", "Port0","{4953A6BE-C0FB-47de-A632-8746A1CC2930}");
+tocTab[tocTab.length] = new Array("0.8.36.4:9", "", "Port1", "EARoot/EA8/EA36/EA4/EA1231.htm", "95.png", "E5093", "E5090", "", "Port0","{F9449D1B-E557-457b-8ED1-274F109F1656}");
+tocTab[tocTab.length] = new Array("0.8.36.4:10", "", "Port2", "EARoot/EA8/EA36/EA4/EA1232.htm", "95.png", "E5094", "E5091", "", "Port0","{9BB918CA-A6C0-4a30-B48F-BA9748C17A88}");
+tocTab[tocTab.length] = new Array("0.8.36.4:11", "", "Port3", "EARoot/EA8/EA36/EA4/EA1233.htm", "95.png", "E5095", "E5092", "", "Port0","{ED8984B8-CAAE-4d6a-9496-1CF8BDF21FC2}");

@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.8.40.1.1", "1", "Customer Discovery", "EARoot/EA8/EA40/EA1/EA1/EA1677.htm", "4.png", "", "", "{8D83E27E-9607-4bb6-9508-1E25608ACC7F}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.1.2", "1", "Customer Validation", "EARoot/EA8/EA40/EA1/EA2/EA1967.htm", "4.png", "", "", "{E44F7B4B-68D4-4864-958C-9110F65BFEDC}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.1.3", "1", "Simple Web", "EARoot/EA8/EA40/EA1/EA3/EA2191.htm", "4.png", "", "", "{715B7E60-A2CB-4d14-9556-A151217C2FC6}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.1.4", "1", "Customer Creation", "EARoot/EA8/EA40/EA1/EA4/EA2284.htm", "4.png", "", "", "{8CA63CD5-2CE0-4e42-84B0-9A8599940440}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.1.5", "1", "Company Building", "EARoot/EA8/EA40/EA1/EA5/EA2441.htm", "4.png", "", "", "{582513B2-FF73-4dda-B8BB-3C2C3A5145E5}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.1.6", "", "Checklists", "EARoot/EA8/EA40/EA1/EA6/EA2542.htm", "4.png", "", "", "{04E2065F-4706-4829-B85E-FEB424BC5D91}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.1.7", "1", "Template", "EARoot/EA8/EA40/EA1/EA7/EA2543.htm", "4.png", "", "", "{2B10C72C-95EB-4970-B7D0-85308BFC33BA}", "Package");

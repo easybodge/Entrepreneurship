@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.40.4.1.10.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA40/EA4/EA1/EA10/EA4/EA3432.htm", "182.png", "377", "0", "", "CompositeStructure diagram0","{2247AF53-DD0E-4cee-B613-403E6C6CF539}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.10.4:2", "", "a is second moe", "EARoot/EA8/EA40/EA4/EA1/EA10/EA4/EA3435.htm", "118.png", "E3779", "0", "", "Part0","{EEECF4D7-688D-4315-B93E-52D39EE7E623}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.10.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA40/EA4/EA1/EA10/EA4/EA3436.htm", "118.png", "E3777", "0", "", "Part0","{6C0484C6-7834-4b81-8378-9CCF32DC61A4}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.10.4:4", "", "q is third moe", "EARoot/EA8/EA40/EA4/EA1/EA10/EA4/EA3437.htm", "118.png", "E3780", "0", "", "Part0","{4192CA4E-9FE0-47e4-8489-42AE03D873CD}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.10.4:5", "", "this is first moe", "EARoot/EA8/EA40/EA4/EA1/EA10/EA4/EA3438.htm", "118.png", "E3778", "0", "", "Part0","{65C17CC7-77D9-4f98-ACD0-CF7DA4722C15}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.10.4:6", "", "Port4", "EARoot/EA8/EA40/EA4/EA1/EA10/EA4/EA3439.htm", "95.png", "E3784", "E3777", "", "Port0","{CD26DB78-AF71-49a1-8D27-3C20AB8C99F0}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.10.4:7", "", "Port5", "EARoot/EA8/EA40/EA4/EA1/EA10/EA4/EA3440.htm", "95.png", "E3785", "E3777", "", "Port0","{561CA82B-6154-4a14-89D7-4939A9E631D9}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.10.4:8", "", "Port6", "EARoot/EA8/EA40/EA4/EA1/EA10/EA4/EA3441.htm", "95.png", "E3786", "E3777", "", "Port0","{6D98B24B-DCA3-4f40-9741-045D7D7EEFFE}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.10.4:9", "", "Port1", "EARoot/EA8/EA40/EA4/EA1/EA10/EA4/EA3442.htm", "95.png", "E3781", "E3778", "", "Port0","{D7CB0D54-7977-4692-B90E-B9A131B72678}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.10.4:10", "", "Port2", "EARoot/EA8/EA40/EA4/EA1/EA10/EA4/EA3443.htm", "95.png", "E3782", "E3779", "", "Port0","{C43EFD42-EB2F-4467-8742-550457B9080A}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.10.4:11", "", "Port3", "EARoot/EA8/EA40/EA4/EA1/EA10/EA4/EA3444.htm", "95.png", "E3783", "E3780", "", "Port0","{366FC3DB-711F-46d7-8171-2905462F3079}");

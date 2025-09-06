@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.39.2.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA39/EA2/EA4/EA1644.htm", "182.png", "406", "0", "", "CompositeStructure diagram0","{003C2BE9-FE36-4454-8C5B-551ECD328CC1}");
+tocTab[tocTab.length] = new Array("0.8.39.2.4:2", "", "a is second moe", "EARoot/EA8/EA39/EA2/EA4/EA1647.htm", "118.png", "E4170", "0", "", "Part0","{8445D5FE-B0F1-4ef9-8F45-B7B4EFE18AC4}");
+tocTab[tocTab.length] = new Array("0.8.39.2.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA39/EA2/EA4/EA1648.htm", "118.png", "E4168", "0", "", "Part0","{554CD54D-8F01-478b-9D38-8ACA19F4D2D6}");
+tocTab[tocTab.length] = new Array("0.8.39.2.4:4", "", "q is third moe", "EARoot/EA8/EA39/EA2/EA4/EA1649.htm", "118.png", "E4171", "0", "", "Part0","{7D3509D0-DB5E-42af-889D-E8C80C6D37C4}");
+tocTab[tocTab.length] = new Array("0.8.39.2.4:5", "", "this is first moe", "EARoot/EA8/EA39/EA2/EA4/EA1650.htm", "118.png", "E4169", "0", "", "Part0","{608C46B6-04C2-41d2-AD47-9FE0483FAB90}");
+tocTab[tocTab.length] = new Array("0.8.39.2.4:6", "", "Port4", "EARoot/EA8/EA39/EA2/EA4/EA1651.htm", "95.png", "E4175", "E4168", "", "Port0","{B9309FEA-F6ED-4bee-A64D-7690AB3A1628}");
+tocTab[tocTab.length] = new Array("0.8.39.2.4:7", "", "Port5", "EARoot/EA8/EA39/EA2/EA4/EA1652.htm", "95.png", "E4176", "E4168", "", "Port0","{43E59702-08D2-4c14-95CE-D05895FDE13A}");
+tocTab[tocTab.length] = new Array("0.8.39.2.4:8", "", "Port6", "EARoot/EA8/EA39/EA2/EA4/EA1653.htm", "95.png", "E4177", "E4168", "", "Port0","{518CBF52-F427-478d-B1D0-46F1716A7151}");
+tocTab[tocTab.length] = new Array("0.8.39.2.4:9", "", "Port1", "EARoot/EA8/EA39/EA2/EA4/EA1654.htm", "95.png", "E4172", "E4169", "", "Port0","{565EC524-59C5-4e1e-943E-E8E75BB408E9}");
+tocTab[tocTab.length] = new Array("0.8.39.2.4:10", "", "Port2", "EARoot/EA8/EA39/EA2/EA4/EA1655.htm", "95.png", "E4173", "E4170", "", "Port0","{B822D9FC-2193-442f-BC82-1DEFEC16D224}");
+tocTab[tocTab.length] = new Array("0.8.39.2.4:11", "", "Port3", "EARoot/EA8/EA39/EA2/EA4/EA1656.htm", "95.png", "E4174", "E4171", "", "Port0","{BFFC3737-0B13-4f98-97BF-A16445BF688E}");

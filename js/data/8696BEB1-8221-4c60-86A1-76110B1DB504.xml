@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.24.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA24/EA4/EA968.htm", "182.png", "460", "0", "", "CompositeStructure diagram0","{492282FA-5DE2-4b0a-A529-59B714F175D6}");
+tocTab[tocTab.length] = new Array("0.8.24.4:2", "", "a is second moe", "EARoot/EA8/EA24/EA4/EA971.htm", "118.png", "E4911", "0", "", "Part0","{A7D07CB1-2FB4-426d-A946-CF69B7141EC2}");
+tocTab[tocTab.length] = new Array("0.8.24.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA24/EA4/EA972.htm", "118.png", "E4909", "0", "", "Part0","{12547241-C340-49f6-BF85-3EA2FB460012}");
+tocTab[tocTab.length] = new Array("0.8.24.4:4", "", "q is third moe", "EARoot/EA8/EA24/EA4/EA973.htm", "118.png", "E4912", "0", "", "Part0","{43010F35-6CF4-48b4-9CFD-178BD89A9ADF}");
+tocTab[tocTab.length] = new Array("0.8.24.4:5", "", "this is first moe", "EARoot/EA8/EA24/EA4/EA974.htm", "118.png", "E4910", "0", "", "Part0","{0FD5D45C-0835-4330-A979-8F729CE78B84}");
+tocTab[tocTab.length] = new Array("0.8.24.4:6", "", "Port4", "EARoot/EA8/EA24/EA4/EA975.htm", "95.png", "E4916", "E4909", "", "Port0","{64F344D3-AD24-4117-B1A2-07773FC037E7}");
+tocTab[tocTab.length] = new Array("0.8.24.4:7", "", "Port5", "EARoot/EA8/EA24/EA4/EA976.htm", "95.png", "E4917", "E4909", "", "Port0","{4E586305-EC35-4a0b-957C-3D449709AF4D}");
+tocTab[tocTab.length] = new Array("0.8.24.4:8", "", "Port6", "EARoot/EA8/EA24/EA4/EA977.htm", "95.png", "E4918", "E4909", "", "Port0","{62EC65E8-783C-4b10-9DF5-B9C3BC796929}");
+tocTab[tocTab.length] = new Array("0.8.24.4:9", "", "Port1", "EARoot/EA8/EA24/EA4/EA978.htm", "95.png", "E4913", "E4910", "", "Port0","{CE4DF6C9-CF19-4c72-8E68-D10BAF3183C3}");
+tocTab[tocTab.length] = new Array("0.8.24.4:10", "", "Port2", "EARoot/EA8/EA24/EA4/EA979.htm", "95.png", "E4914", "E4911", "", "Port0","{76D23A7D-EF79-4744-BE6E-02D2CBDF6B13}");
+tocTab[tocTab.length] = new Array("0.8.24.4:11", "", "Port3", "EARoot/EA8/EA24/EA4/EA980.htm", "95.png", "E4915", "E4912", "", "Port0","{E62807BD-4666-4a3f-AA10-3285ECA105D8}");

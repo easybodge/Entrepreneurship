@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.8.40.5.2.2:2", "", "Ultimte LPs mission", "EARoot/EA8/EA40/EA5/EA2/EA2/EA3990.htm", "21.png", "E6351", "0", "", "Activity0","{AE44C375-0AF6-488b-86D5-85EB7EC55705}");
+tocTab[tocTab.length] = new Array("0.8.40.5.2.2:1", "", "Ultimte LPs mission", "EARoot/EA8/EA40/EA5/EA2/EA2/EA3987.htm", "181.png", "558", "E6351", "", "Activity diagram0","{63B8B231-0BA1-41e4-A60E-6D485A2F0869}");
+tocTab[tocTab.length] = new Array("0.8.40.5.2.2:3", "", "invest to earn higher ROI to deliver their missions such as multigenerational wealth preservation (when LP is Family Office)", "EARoot/EA8/EA40/EA5/EA2/EA2/EA3991.htm", "104.png", "E6352", "E6351", "", "Action0","{47EA663C-0ACD-4d3f-B1FD-CD34213A4983}");

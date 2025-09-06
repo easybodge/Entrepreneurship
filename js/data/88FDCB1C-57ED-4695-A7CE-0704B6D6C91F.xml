@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.8.40.5.3.2:2", "", "VCs Investment Decision", "EARoot/EA8/EA40/EA5/EA3/EA2/EA4001.htm", "175.png", "550", "0", "", "Logical diagram0","{70197E8C-5CF5-4f53-A4C1-6FDB51B5DA97}");
+tocTab[tocTab.length] = new Array("0.8.40.5.3.2:3", "", "Market Size", "EARoot/EA8/EA40/EA5/EA3/EA2/EA4004.htm", "5.png", "E6320", "0", "", "Class0","{1C7E8BBE-7BEC-4f6f-8880-F9E041CF2F2B}");
+tocTab[tocTab.length] = new Array("0.8.40.5.3.2:4", "", "People", "EARoot/EA8/EA40/EA5/EA3/EA2/EA4005.htm", "5.png", "E6318", "0", "", "Class0","{748901F7-ADC8-47fb-A018-73C6E61BCEE8}");
+tocTab[tocTab.length] = new Array("0.8.40.5.3.2:5", "", "Product", "EARoot/EA8/EA40/EA5/EA3/EA2/EA4006.htm", "5.png", "E6319", "0", "", "Class0","{C16055F4-88C9-4ea0-B2A7-19FE183613BB}");
+tocTab[tocTab.length] = new Array("0.8.40.5.3.2:6", "", "VCs investment decision", "EARoot/EA8/EA40/EA5/EA3/EA2/EA4007.htm", "5.png", "E6317", "0", "", "Class0","{F8D71E20-4A5B-4166-A614-2175E5BB2E8D}");
+tocTab[tocTab.length] = new Array("0.8.40.5.3.2:1", "", "People - int", "EARoot/EA8/EA40/EA5/EA3/EA2/EA3999.htm", "182.png", "555", "E6318", "", "CompositeStructure diagram0","{347DA4FE-191D-4fe8-9C89-3FA3090C4B45}");
+tocTab[tocTab.length] = new Array("0.8.40.5.3.2:7", "", ": People", "EARoot/EA8/EA40/EA5/EA3/EA2/EA4008.htm", "118.png", "E6332", "E6317", "", "Part0","{83CC26F3-0F2D-4f61-B557-49FD18071BE9}");
+tocTab[tocTab.length] = new Array("0.8.40.5.3.2:8", "", ": Product", "EARoot/EA8/EA40/EA5/EA3/EA2/EA4009.htm", "118.png", "E6333", "E6317", "", "Part0","{894FD73D-6F39-40f2-90A0-DC7D4BFA2D96}");
+tocTab[tocTab.length] = new Array("0.8.40.5.3.2:9", "", ": Market Size", "EARoot/EA8/EA40/EA5/EA3/EA2/EA4010.htm", "118.png", "E6334", "E6317", "", "Part0","{2DBC4557-7ED2-4228-9C37-90B45A4930B1}");
+tocTab[tocTab.length] = new Array("0.8.40.5.3.2:10", "", "personality: Founder Leadership Skills", "EARoot/EA8/EA40/EA5/EA3/EA2/EA4011.htm", "118.png", "E6345", "E6318", "", "Part0","{A9707579-E1A8-4d90-B7CF-AFA37FEA257E}");

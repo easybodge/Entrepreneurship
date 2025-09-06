@@ -1,0 +1,16 @@
+tocTab[tocTab.length] = new Array("0.8.40.4.1.3.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA40/EA4/EA1/EA3/EA4/EA3034.htm", "182.png", "353", "0", "", "CompositeStructure diagram0","{EBF4EBA7-F3E7-4ca6-B3E1-ECE3394718B5}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.3.4:2", "", "Brand Awareness %", "EARoot/EA8/EA40/EA4/EA1/EA3/EA4/EA3037.htm", "118.png", "E3421", "0", "", "Part0","{933A60ED-2CA9-47cb-A970-C007E9631D8A}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.3.4:3", "", "Brand Trust Score", "EARoot/EA8/EA40/EA4/EA1/EA3/EA4/EA3038.htm", "118.png", "E3422", "0", "", "Part0","{1A20BC52-D99E-4170-ADF4-41B75542056B}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.3.4:4", "", "Customer Engagement Rate", "EARoot/EA8/EA40/EA4/EA1/EA3/EA4/EA3039.htm", "118.png", "E3418", "0", "", "Part0","{3A5B9558-799D-42ea-9F33-E362377AED1C}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.3.4:5", "", "Market Differentiation Rate", "EARoot/EA8/EA40/EA4/EA1/EA3/EA4/EA3040.htm", "118.png", "E3420", "0", "", "Part0","{7D80E49F-7116-4fbf-A9F3-5053A5CB13E7}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.3.4:6", "", "Product Adoption Rate", "EARoot/EA8/EA40/EA4/EA1/EA3/EA4/EA3041.htm", "118.png", "E3419", "0", "", "Part0","{B1D1158F-FC82-45f8-BB2F-C74C5D8EB890}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.3.4:7", "", "Customer Satisfaction Score", "EARoot/EA8/EA40/EA4/EA1/EA3/EA4/EA3042.htm", "118.png", "E3409", "0", "", "Part0","{632ADAB0-CBDC-439e-BC03-F31BF2B8A259}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.3.4:8", "", "Feature Utilization Score %", "EARoot/EA8/EA40/EA4/EA1/EA3/EA4/EA3043.htm", "118.png", "E3410", "0", "", "Part0","{AD34DB75-821F-449c-AFB5-CBC3D7EE7BCB}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.3.4:9", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA40/EA4/EA1/EA3/EA4/EA3044.htm", "118.png", "E3408", "0", "", "Part0","{CB582170-BA3D-4956-87D4-FBF403055DB3}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.3.4:10", "", "Time to value TTV", "EARoot/EA8/EA40/EA4/EA1/EA3/EA4/EA3045.htm", "118.png", "E3411", "0", "", "Part0","{435AC596-D969-4505-B6E9-50147D380716}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.3.4:11", "", "Port4", "EARoot/EA8/EA40/EA4/EA1/EA3/EA4/EA3046.htm", "95.png", "E3415", "E3408", "", "Port0","{7C0233FC-6E27-4299-AB83-0EA78EE9FE58}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.3.4:12", "", "Port5", "EARoot/EA8/EA40/EA4/EA1/EA3/EA4/EA3047.htm", "95.png", "E3416", "E3408", "", "Port0","{F89CB8E3-6345-46e6-B25C-FD716ABCB3E4}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.3.4:13", "", "Port6", "EARoot/EA8/EA40/EA4/EA1/EA3/EA4/EA3048.htm", "95.png", "E3417", "E3408", "", "Port0","{222C5BB1-5F89-486b-91DC-CFE8B4A4F5C4}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.3.4:14", "", "Port1", "EARoot/EA8/EA40/EA4/EA1/EA3/EA4/EA3049.htm", "95.png", "E3412", "E3409", "", "Port0","{8301691C-A0CE-44e0-8012-3B3773DA7C4C}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.3.4:15", "", "Port2", "EARoot/EA8/EA40/EA4/EA1/EA3/EA4/EA3050.htm", "95.png", "E3413", "E3410", "", "Port0","{1CE85A27-EAD5-4749-831D-E9887E76DE3D}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.3.4:16", "", "Port3", "EARoot/EA8/EA40/EA4/EA1/EA3/EA4/EA3051.htm", "95.png", "E3414", "E3411", "", "Port0","{F18E5683-6102-41b9-8CBB-6434DB1F9051}");

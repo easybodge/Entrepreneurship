@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.33.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA33/EA4/EA1160.htm", "182.png", "470", "0", "", "CompositeStructure diagram0","{F57F8AB5-40EA-4d05-9547-9FD30602D02F}");
+tocTab[tocTab.length] = new Array("0.8.33.4:2", "", "a is second moe", "EARoot/EA8/EA33/EA4/EA1163.htm", "118.png", "E5061", "0", "", "Part0","{17A8E77A-7877-4e8b-9592-B6D316624B8F}");
+tocTab[tocTab.length] = new Array("0.8.33.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA33/EA4/EA1164.htm", "118.png", "E5059", "0", "", "Part0","{DB2226A0-30C3-4fbf-8067-12786DD4FEAD}");
+tocTab[tocTab.length] = new Array("0.8.33.4:4", "", "q is third moe", "EARoot/EA8/EA33/EA4/EA1165.htm", "118.png", "E5062", "0", "", "Part0","{24E026E7-8B49-457a-8A60-6805C9D92865}");
+tocTab[tocTab.length] = new Array("0.8.33.4:5", "", "this is first moe", "EARoot/EA8/EA33/EA4/EA1166.htm", "118.png", "E5060", "0", "", "Part0","{A5A9177E-E5FC-4dd1-8FDE-8584A3E77215}");
+tocTab[tocTab.length] = new Array("0.8.33.4:6", "", "Port4", "EARoot/EA8/EA33/EA4/EA1167.htm", "95.png", "E5066", "E5059", "", "Port0","{2C926B4D-6339-48d1-AD63-F29FF2A276BE}");
+tocTab[tocTab.length] = new Array("0.8.33.4:7", "", "Port5", "EARoot/EA8/EA33/EA4/EA1168.htm", "95.png", "E5067", "E5059", "", "Port0","{D45DF431-B9AD-41b8-9E33-8707405454E1}");
+tocTab[tocTab.length] = new Array("0.8.33.4:8", "", "Port6", "EARoot/EA8/EA33/EA4/EA1169.htm", "95.png", "E5068", "E5059", "", "Port0","{054F5F9E-EBBC-4163-8C7D-0585EF0AADDA}");
+tocTab[tocTab.length] = new Array("0.8.33.4:9", "", "Port1", "EARoot/EA8/EA33/EA4/EA1170.htm", "95.png", "E5063", "E5060", "", "Port0","{76EF91FE-2D97-43eb-94B5-D9CB576F5108}");
+tocTab[tocTab.length] = new Array("0.8.33.4:10", "", "Port2", "EARoot/EA8/EA33/EA4/EA1171.htm", "95.png", "E5064", "E5061", "", "Port0","{E99E1240-00C1-485f-9F9B-AB03F2C278A0}");
+tocTab[tocTab.length] = new Array("0.8.33.4:11", "", "Port3", "EARoot/EA8/EA33/EA4/EA1172.htm", "95.png", "E5065", "E5062", "", "Port0","{271A5E50-3E23-4d31-A1A0-FE46736C43F5}");

@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.32.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA32/EA4/EA1139.htm", "182.png", "469", "0", "", "CompositeStructure diagram0","{3D4CEC75-0FFE-43b8-A41E-F28FBF5C85D4}");
+tocTab[tocTab.length] = new Array("0.8.32.4:2", "", "a is second moe", "EARoot/EA8/EA32/EA4/EA1142.htm", "118.png", "E5046", "0", "", "Part0","{D65A630C-6A1B-4a84-80EB-AABE13B30915}");
+tocTab[tocTab.length] = new Array("0.8.32.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA32/EA4/EA1143.htm", "118.png", "E5044", "0", "", "Part0","{723E5A72-7EC6-481c-9D11-A7DDA89C90E4}");
+tocTab[tocTab.length] = new Array("0.8.32.4:4", "", "q is third moe", "EARoot/EA8/EA32/EA4/EA1144.htm", "118.png", "E5047", "0", "", "Part0","{967D6B50-8354-4c80-B32A-67C70C6F7776}");
+tocTab[tocTab.length] = new Array("0.8.32.4:5", "", "this is first moe", "EARoot/EA8/EA32/EA4/EA1145.htm", "118.png", "E5045", "0", "", "Part0","{ED148889-540E-426a-9D66-A2524454C313}");
+tocTab[tocTab.length] = new Array("0.8.32.4:6", "", "Port4", "EARoot/EA8/EA32/EA4/EA1146.htm", "95.png", "E5051", "E5044", "", "Port0","{3D9E8029-6A27-4fb8-A1A1-32EB2E1E38B5}");
+tocTab[tocTab.length] = new Array("0.8.32.4:7", "", "Port5", "EARoot/EA8/EA32/EA4/EA1147.htm", "95.png", "E5052", "E5044", "", "Port0","{FE9A5078-5093-4dbb-A88F-F145FEFDEF4F}");
+tocTab[tocTab.length] = new Array("0.8.32.4:8", "", "Port6", "EARoot/EA8/EA32/EA4/EA1148.htm", "95.png", "E5053", "E5044", "", "Port0","{65BD92C5-91D1-4789-AA1E-C8B08C9B1134}");
+tocTab[tocTab.length] = new Array("0.8.32.4:9", "", "Port1", "EARoot/EA8/EA32/EA4/EA1149.htm", "95.png", "E5048", "E5045", "", "Port0","{5605D19D-9282-4b03-B389-D5767ED93F55}");
+tocTab[tocTab.length] = new Array("0.8.32.4:10", "", "Port2", "EARoot/EA8/EA32/EA4/EA1150.htm", "95.png", "E5049", "E5046", "", "Port0","{5905AD96-7B96-4922-BB40-113A159F159E}");
+tocTab[tocTab.length] = new Array("0.8.32.4:11", "", "Port3", "EARoot/EA8/EA32/EA4/EA1151.htm", "95.png", "E5050", "E5047", "", "Port0","{D5A3E764-5E1A-4084-B1CD-B59AEE0482E7}");

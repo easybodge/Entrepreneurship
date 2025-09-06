@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title></title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+</head>
+<body>
+<p><font face="Aptos"><span style=" font-size:12pt">You&rsquo;ve got three solid paths, from quickest to most powerful. All work great with a Node.js + 
+React + MySQL stack.</span></font></p>
+<p><font face="Aptos"><span style=" font-size:12pt"><b>1) Product&#8209;analytics SaaS (fastest to value)</b></span></font></p>
+<p><font face="Aptos"><span style=" font-size:12pt"><b>Best for:</b></span><span style=" font-size:12pt"> funnels, retention, DAU/WAU/MAU, cohorts, session replays, feature 
+usage&mdash;without building infra.</span></font></p>
+<ul style="margin-top: 0mm; margin-bottom: 0mm; padding-left: 0; margin-left: 0; list-style-type: disc; ">
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>PostHog Cloud</b></span><span style=" font-size:12pt"> (my top pick): event tracking, funnels, retention, cohorts, session 
+replay, feature flags, A/B tests, heatmaps; easy React SDK and Node capture. Can 
+embed charts in your admin app.</span></font></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Amplitude / Mixpanel</b></span><span style=" font-size:12pt">: excellent for product analytics and experimentation; strong 
+funnel/retention tooling.</span></font></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Hotjar / FullStory</b></span><span style=" font-size:12pt">: session recordings, heatmaps, surveys&mdash;pair with one of the 
+above.</span></font></li>
+</ul>
+<p><font face="Aptos"><span style=" font-size:12pt"><b>Why this route:</b></span><span style=" font-size:12pt"> 1&ndash;2 days to be live. Great out&#8209;of&#8209;the&#8209;box dashboards. Minimal code: add 
+JS SDK to React, identify users, send events from Node for server&#8209;side truths (sign&#8209;ups, 
+purchases).</span></font></p>
+<p><font face="Aptos"><span style=" font-size:12pt"><b>2) Privacy&#8209;first web analytics (simple + GDPR friendly)</b></span></font></p>
+<p><font face="Aptos"><span style=" font-size:12pt"><b>Best for:</b></span><span style=" font-size:12pt"> pageviews, sources, time&#8209;on&#8209;page, top pages, countries&mdash;quick pulse with 
+minimal overhead.</span></font></p>
+<ul style="margin-top: 0mm; margin-bottom: 0mm; padding-left: 0; margin-left: 0; list-style-type: disc; ">
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Plausible</b></span><span style=" font-size:12pt"> or </span><span style=" font-size:12pt"><b>Fathom</b></span><span style=" font-size:12pt">: lightweight script, cookie&#8209;less by default, strong GDPR 
+posture.<br />Use alongside a product tool (e.g., PostHog) for deeper app analytics.</span></font></li>
+</ul>
+<p><font face="Aptos"><span style=" font-size:12pt"><b>3) Own the data stack (maximum control, embeds, SQL)</b></span></font></p>
+<p><font face="Aptos"><span style=" font-size:12pt"><b>Best for:</b></span><span style=" font-size:12pt"> you want your </span><span style=" font-size:12pt"><b>admin dashboard</b></span><span style=" font-size:12pt"> backed by </span><span style=" font-size:12pt"><b>your DB</b></span><span style=" font-size:12pt"> and rich analytics you can 
+slice with SQL.</span></font></p>
+<ul style="margin-top: 0mm; margin-bottom: 0mm; padding-left: 0; margin-left: 0; list-style-type: disc; ">
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Collect events:</b></span><span style=" font-size:12pt"> instrument your React app and Node API with </span><span style=" font-size:12pt"><b>OpenTelemetry</b></span><span style=" font-size:12pt"> (or a 
+tiny custom tracker) &rarr; write to an </span><span style=" font-size:12pt"><b>events table</b></span><span style=" font-size:12pt"> (don&rsquo;t spam MySQL OLTP; prefer 
+append&#8209;only).</span></font></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Warehouse:</b></span><span style=" font-size:12pt"> stream events into </span><span style=" font-size:12pt"><b>ClickHouse</b></span><span style=" font-size:12pt"> (fast + cheap) or </span><span style=" font-size:12pt"><b>BigQuery</b></span><span style=" font-size:12pt">; keep 
+MySQL for transactional data.</span></font></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>BI / Admin UI:</b></span><span style=" font-size:12pt"> use </span><span style=" font-size:12pt"><b>Metabase</b></span><span style=" font-size:12pt"> or </span><span style=" font-size:12pt"><b>Apache Superset</b></span><span style=" font-size:12pt"> (open source) for charts + 
+cohorts; or </span><span style=" font-size:12pt"><b>Retool</b></span><span style=" font-size:12pt"> / </span><span style=" font-size:12pt"><b>Appsmith</b></span><span style=" font-size:12pt"> to build an internal admin with auth + CRUD. You can 
+</span><span style=" font-size:12pt"><b>embed</b></span><span style=" font-size:12pt"> these dashboards inside your admin app.</span></font></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Optional product layer:</b></span><span style=" font-size:12pt"> self&#8209;host </span><span style=" font-size:12pt"><b>PostHog</b></span><span style=" font-size:12pt"> (runs on ClickHouse) to get 
+funnels/retention/replays while owning data.</span></font></li>
+</ul>
+<p><font face="Aptos"><span style=" font-size:12pt"><br /></span></font></p><p><font face="Aptos"><span style=" font-size:12pt"><b>Recommended setup (balanced, quick, powerful)</b></span></font></p>
+<ol style="margin-top: 0mm; margin-bottom: 0mm; padding-left: 0; margin-left: 0; ">
+<li style="list-style-type: none; margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-family: Aptos;  ">1. <font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>PostHog (cloud or self&#8209;hosted)</b></span><span style=" font-size:12pt"> for product analytics (DAU, funnels, retention, 
+replays, feature flags).</span></font></li>
+<li style="list-style-type: none; margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-family: Aptos;  "><div style="margin-top: 0pt; margin-bottom: 8pt; ">2. <font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Plausible</b></span><span style=" font-size:12pt"> for lightweight marketing/web traffic.</span></font></div></li>
+<li style="list-style-type: none; margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-family: Aptos;  ">3. <font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Metabase</b></span><span style=" font-size:12pt"> reading from </span><span style=" font-size:12pt"><b>MySQL + PostHog&rsquo;s ClickHouse</b></span><span style=" font-size:12pt"> (or your warehouse) to 
+power a custom </span><span style=" font-size:12pt"><b>Admin Dashboard</b></span><span style=" font-size:12pt"> with KPIs you define.</span></font></li>
+</ol>
+<p><font face="Aptos"><span style=" font-size:12pt">You can embed PostHog charts and Metabase dashboards inside your admin&#8209;only route 
+(e.g., /admin/analytics) behind your existing auth.</span></font></p>
+<p><font face="Aptos"><span style=" font-size:12pt"><br /></span></font></p><p><font face="Aptos"><span style=" font-size:12pt"><b>What to track (starter event schema)</b></span></font></p>
+<ul style="margin-top: 0mm; margin-bottom: 0mm; padding-left: 0; margin-left: 0; list-style-type: disc; ">
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><div style="margin-top: 0pt; margin-bottom: 8pt; "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Identity:</b></span><span style=" font-size:12pt"> user_id, anonymous_id, email, plan, company_id.</span></font></div></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Lifecycle:</b></span><span style=" font-size:12pt"> User Signed Up, User Activated (define your &ldquo;aha&rdquo; action), User Logged 
+In.</span></font></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Engagement:</b></span><span style=" font-size:12pt"> Page Viewed (path, referrer), Feature Used (feature_name), Button 
+Clicked (id), Form Submitted (name).</span></font></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><div style="margin-top: 0pt; margin-bottom: 8pt; "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Value events:</b></span><span style=" font-size:12pt"> Order Created, Payment Succeeded, Subscription Upgraded.</span></font></div></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><div style="margin-top: 0pt; margin-bottom: 8pt; "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Quality:</b></span><span style=" font-size:12pt"> API Error (code), Frontend Error (message), Latency Observed (ms).</span></font></div></li>
+</ul>
+<p><font face="Aptos"><span style=" font-size:12pt"><b>Key metrics on your dashboard</b></span></font></p>
+<ul style="margin-top: 0mm; margin-bottom: 0mm; padding-left: 0; margin-left: 0; list-style-type: disc; ">
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><div style="margin-top: 0pt; margin-bottom: 8pt; "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Normal; font-style:Normal; font-decoration:Normal">DAU/WAU/MAU + activation rate</span></font></div></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><div style="margin-top: 0pt; margin-bottom: 8pt; "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Normal; font-style:Normal; font-decoration:Normal">Time on site / session count</span></font></div></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><div style="margin-top: 0pt; margin-bottom: 8pt; "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Normal; font-style:Normal; font-decoration:Normal">Feature usage &amp; stickiness</span></font></div></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><div style="margin-top: 0pt; margin-bottom: 8pt; "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Normal; font-style:Normal; font-decoration:Normal">Funnel conversion (Sign&#8209;up &rarr; Onboarded &rarr; First Value)</span></font></div></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><div style="margin-top: 0pt; margin-bottom: 8pt; "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Normal; font-style:Normal; font-decoration:Normal">Retention cohorts (D7/D30)</span></font></div></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><div style="margin-top: 0pt; margin-bottom: 8pt; "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Normal; font-style:Normal; font-decoration:Normal">Top pages/paths &amp; drop&#8209;offs</span></font></div></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><div style="margin-top: 0pt; margin-bottom: 8pt; "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Normal; font-style:Normal; font-decoration:Normal">Errors per 1k sessions; API p95 latency</span></font></div></li>
+</ul>
+<p><font face="Aptos"><span style=" font-size:12pt"><br /></span></font></p><p><font face="Aptos"><span style=" font-size:12pt"><b>Implementation notes</b></span></font></p>
+<ul style="margin-top: 0mm; margin-bottom: 0mm; padding-left: 0; margin-left: 0; list-style-type: disc; ">
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Front&#8209;end:</b></span><span style=" font-size:12pt"> add PostHog/Amplitude React SDK, call identify() after login, capture() 
+on meaningful actions.</span></font></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Back&#8209;end (Node):</b></span><span style=" font-size:12pt"> capture server&#8209;side events for anything security&#8209;critical (billing, 
+role changes).</span></font></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Data model:</b></span><span style=" font-size:12pt"> keep an </span><span style=" font-size:12pt"><b>append&#8209;only</b></span><span style=" font-size:12pt"> events table if you DIY; don&rsquo;t overload your 
+transactional MySQL.</span></font></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><div style="margin-top: 0pt; margin-bottom: 8pt; "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Embed:</b></span><span style=" font-size:12pt"> PostHog &amp; Metabase both support secure embeddable charts.</span></font></div></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Consent &amp; GDPR (UK/EU):</b></span><span style=" font-size:12pt"> show a consent banner; prefer cookieless modes where 
+possible; set up </span><span style=" font-size:12pt"><b>SPF/DKIM/DMARC</b></span><span style=" font-size:12pt"> anyway for email comms.</span></font></li>
+<li style="margin-left: 18pt; margin-right: 0pt; padding-left: 0pt; font-size: 10pt;  "><font face="Aptos"><span style=" font-size:12pt; font-family:Aptos; color:#000000; font-weight:Bold; font-style:Normal; font-decoration:Normal"><b>Observability:</b></span><span style=" font-size:12pt"> add </span><span style=" font-size:12pt"><b>Sentry</b></span><span style=" font-size:12pt"> (front + back) for error tracking; pair with your analytics 
+for a full picture.</span></font></li>
+</ul>
+<p><font face="Aptos"><span style=" font-size:12pt"><br /></span></font></p><div align="left">&nbsp;</div>
+</body>
+</html>

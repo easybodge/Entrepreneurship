@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.6.1", "1", "Cellular Signal - Extending Range", "EARoot/EA6/EA1/EA118.htm", "4.png", "", "", "{AA18F33B-74D2-493e-A238-5390E13610A4}", "Package");
+tocTab[tocTab.length] = new Array("0.6.2", "1", "Link Budget", "EARoot/EA6/EA2/EA133.htm", "4.png", "", "", "{96F40121-3FFB-4915-94C7-D2954C0FDD4F}", "Package");

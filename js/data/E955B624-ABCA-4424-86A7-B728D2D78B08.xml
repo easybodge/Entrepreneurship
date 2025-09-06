@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.8.40.5.2.1", "1", "VC Investment Decisions", "EARoot/EA8/EA40/EA5/EA2/EA1/EA3979.htm", "4.png", "", "", "{410EE810-7AB4-4bf0-BAAA-A01CDD23ACBF}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.5.2.2", "1", "What are LPs", "EARoot/EA8/EA40/EA5/EA2/EA2/EA3989.htm", "4.png", "", "", "{F9325A4E-1DFA-417d-906B-182107EC6752}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.5.2.3", "", "How LPs team with VCs", "EARoot/EA8/EA40/EA5/EA2/EA3/EA3992.htm", "4.png", "", "", "{5374E034-91A8-4734-8690-ADC985C7C271}", "Package");

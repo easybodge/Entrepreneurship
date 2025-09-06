@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.8.40.1.5.2:1", "", "Company Building", "EARoot/EA8/EA40/EA1/EA5/EA2/EA2447.htm", "175.png", "548", "0", "", "Logical diagram0","{424D0EF4-7B69-4109-A4E0-1EE1AFEB59DE}");
+tocTab[tocTab.length] = new Array("0.8.40.1.5.2:2", "", "Company Building", "EARoot/EA8/EA40/EA1/EA5/EA2/EA2450.htm", "21.png", "E6295", "0", "", "Activity0","{E6AF6A36-0505-4f69-B8AD-E6E58135CB49}");
+tocTab[tocTab.length] = new Array("0.8.40.1.5.2:3", "", ": Reach mainstream customers", "EARoot/EA8/EA40/EA1/EA5/EA2/EA2455.htm", "118.png", "E6296", "E6295", "", "Part0","{2B0B8A4B-3A4E-4668-8EC2-D6CC287F763A}");
+tocTab[tocTab.length] = new Array("0.8.40.1.5.2:4", "", ": Create mission culture", "EARoot/EA8/EA40/EA1/EA5/EA2/EA2456.htm", "118.png", "E6297", "E6295", "", "Part0","{237F907C-A5D4-4300-8934-41CCB3519B91}");
+tocTab[tocTab.length] = new Array("0.8.40.1.5.2:5", "", ": transition to functional departments", "EARoot/EA8/EA40/EA1/EA5/EA2/EA2457.htm", "118.png", "E6298", "E6295", "", "Part0","{1463462F-16B2-4130-A120-5FC680E16FB1}");
+tocTab[tocTab.length] = new Array("0.8.40.1.5.2:6", "", ": Build fast-response departments", "EARoot/EA8/EA40/EA1/EA5/EA2/EA2458.htm", "118.png", "E6299", "E6295", "", "Part0","{D61862B3-CD45-4dd1-AFC7-C05C760F3EBF}");
+tocTab[tocTab.length] = new Array("0.8.40.1.5.2.1", "1", "P1- Reach Mainstream Customers", "EARoot/EA8/EA40/EA1/EA5/EA2/EA1/EA2463.htm", "4.png", "", "", "{4262FE73-2E60-4d66-A8D5-46591F1F6C79}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.1.5.2.2", "1", "P2- Review Management/Create Mission Culture", "EARoot/EA8/EA40/EA1/EA5/EA2/EA2/EA2482.htm", "4.png", "", "", "{19574A3E-DCAC-44e3-A8FF-0DE917EF13B0}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.1.5.2.3", "1", "P3- Transition to functional departments", "EARoot/EA8/EA40/EA1/EA5/EA2/EA3/EA2499.htm", "4.png", "", "", "{379AFC81-97AA-4f26-A9DA-B01B7B887B88}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.1.5.2.4", "1", "P4- Build fast-response departments", "EARoot/EA8/EA40/EA1/EA5/EA2/EA4/EA2516.htm", "4.png", "", "", "{B533C273-9A34-44fe-B46C-69BBE49C6430}", "Package");

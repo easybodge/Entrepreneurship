@@ -1,0 +1,13 @@
+tocTab[tocTab.length] = new Array("0.8.13.3:1", "", "Financial Projections", "EARoot/EA8/EA13/EA3/EA634.htm", "175.png", "482", "0", "", "Logical diagram0","{2654A6C6-2BAE-4b9b-AC8B-01F2AEEFA577}");
+tocTab[tocTab.length] = new Array("0.8.13.3:2", "", "Financial Projections", "EARoot/EA8/EA13/EA3/EA637.htm", "5.png", "E5266", "0", "", "Class0","{930BC497-126A-4a09-9146-210A252AFAF6}");
+tocTab[tocTab.length] = new Array("0.8.13.3:3", "", "How investment contributes", "EARoot/EA8/EA13/EA3/EA638.htm", "5.png", "E5271", "0", "", "Class0","{B5DEC764-9EB9-4ba5-A8C0-6F4521264CB5}");
+tocTab[tocTab.length] = new Array("0.8.13.3:4", "", "Margins, Profits", "EARoot/EA8/EA13/EA3/EA639.htm", "5.png", "E5268", "0", "", "Class0","{88C1EEF7-42AC-47db-9215-964049ABB6AC}");
+tocTab[tocTab.length] = new Array("0.8.13.3:5", "", "Optimistic & Pessimistic projections", "EARoot/EA8/EA13/EA3/EA640.htm", "5.png", "E5269", "0", "", "Class0","{213A82B9-7C61-4aa2-A15D-2E305E1E478A}");
+tocTab[tocTab.length] = new Array("0.8.13.3:6", "", "Rational & Evidence", "EARoot/EA8/EA13/EA3/EA641.htm", "5.png", "E5270", "0", "", "Class0","{8B691234-AD52-44f4-B033-32836FFA3729}");
+tocTab[tocTab.length] = new Array("0.8.13.3:7", "", "Revenue forecasts over 3-5 years", "EARoot/EA8/EA13/EA3/EA642.htm", "5.png", "E5267", "0", "", "Class0","{92AC0F39-16B8-44cb-A1BD-F7B1BE4BBA1D}");
+tocTab[tocTab.length] = new Array("0.8.13.3:8", "", ": Revenue forecasts over 3-5 years", "EARoot/EA8/EA13/EA3/EA643.htm", "118.png", "E5272", "E5266", "", "Part0","{76B1048B-C3B1-493e-AFEC-75B5F05B7716}");
+tocTab[tocTab.length] = new Array("0.8.13.3:9", "", ": Margins, Profits", "EARoot/EA8/EA13/EA3/EA644.htm", "118.png", "E5273", "E5266", "", "Part0","{9B4A9503-D727-4ac2-8B5F-38562CA66372}");
+tocTab[tocTab.length] = new Array("0.8.13.3:10", "", ": Optimistic & Pessimistic projections", "EARoot/EA8/EA13/EA3/EA645.htm", "118.png", "E5274", "E5266", "", "Part0","{62F51136-3EA2-4f40-9E85-B16BBFEAE7DF}");
+tocTab[tocTab.length] = new Array("0.8.13.3:11", "", ": Rational & Evidence", "EARoot/EA8/EA13/EA3/EA646.htm", "118.png", "E5275", "E5266", "", "Part0","{A672E76B-0642-48bd-A297-25DF935CD9FE}");
+tocTab[tocTab.length] = new Array("0.8.13.3:12", "", ": How investment contributes", "EARoot/EA8/EA13/EA3/EA647.htm", "118.png", "E5276", "E5266", "", "Part0","{AED29626-74C7-438e-BA58-883C207639E4}");
+tocTab[tocTab.length] = new Array("0.8.13.3:13", "", ": Commercialization Plan Timeline", "EARoot/EA8/EA13/EA3/EA648.htm", "118.png", "E5278", "E5270", "", "Part0","{1A75169A-F40B-4b5b-B700-A15FC0311C67}");

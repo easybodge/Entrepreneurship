@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>5G Signal Range Calculation</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> 5G Signal Range Calculation </h1>
+			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../EA1.htm">Domain</a> / <a href="../EA111.htm">Parameters</a> / <a href="EA118.htm">Cellular Signal - Extending Range</a> / <a href="EA119.htm">5G Signal Range Calculation</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<a href="EA118.htm">Cellular Signal - Extending Range</a></ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">5G Signal Range Calculation  : Public  &lt;&lt;constraintProperty&gt;&gt; ConstraintProperty</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">12/01/2025 21:00:46</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">07/02/2025 20:24:38</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">k_war</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{7CFA0624-3E10-4251-B938-3A94572506E2}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA116.htm">Cellular Signal Extending Range</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">See linked document for detailed notes&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Below is an illustrative list of hardware components (Power Amplifiers, LNAs, Filters, Duplexers, and High-Gain Antennas) from at least seven different manufacturers/suppliers each, including example part numbers and rough price estimates. Actual prices and availability will vary by distributor (e.g., Digi-Key, Mouser, Pasternack, Richardson RFPD, etc.), purchase volume, and region. Always verify current pricing, lead times, and regulatory compliance for your specific location and band of operation.&lt;br/&gt;&lt;br/&gt;1. Power Amplifiers (Sub-6&#8239;GHz Range)&lt;br/&gt;A power amplifier (PA) is essential to boost the low-level USRP B210 output to a watt-level signal for 2&#8239;km reach. Below are seven different suppliers with example products commonly used in the 3&#8211;4&#8239;GHz range (typical for sub-6&#8239;GHz 5G-like signals).&lt;br/&gt;&lt;br/&gt;Manufacturer / Supplier	Part Number	Freq. Range	P_out (typ.)	Approx. Price (USD)	Notes&lt;br/&gt;Mini-Circuits	ZHL-5W-63+ (example)	2.7&#8211;6.0&#8239;GHz	5&#8239;W (typ.)	$1,200&#8211;$1,500	Wideband, good linearity&lt;br/&gt;Pasternack	PE15A1016	3.0&#8211;4.0&#8239;GHz	10&#8239;W (typ.)	$2,000&#8211;$3,000	High power, SMA or N-type connectors&lt;br/&gt;Empower RF	1219-BBM3K5KHM (series)	3.4&#8211;3.7&#8239;GHz (var.)	Up to 20&#8239;W	$3,000+ (custom)	Rugged design, configurable gain&lt;br/&gt;RF-Lambda	RFPA-3.0-3.8-10W	3.0&#8211;3.8&#8239;GHz	10&#8239;W (typ.)	$2,000+	Good for small-cell or lab setups&lt;br/&gt;Qorvo (via distis)	QPA4501 Eval Board	3.3&#8211;4.2&#8239;GHz	~5&#8239;W (P1dB)	$400&#8211;$600 (eval board)	GaN-based, needs matching + heat sinking&lt;br/&gt;AR RF/Microwave	20S4G11 (series)	4.0&#8211;10.0&#8239;GHz (broad)	20&#8239;W (typ.)	$10,000+	High-end, lab-grade amp&lt;br/&gt;M2 Global Technology	Custom PA Modules	3.1&#8211;3.5&#8239;GHz, etc.	5&#8211;20&#8239;W	$1,500&#8211;$4,000+	Custom solutions, quotes on request&lt;br/&gt;Note: The exact model from each manufacturer that covers 3.3&#8211;3.8&#8239;GHz (the common sub-6&#8239;GHz 5G band) may vary. Verify the specific frequency range, gain, and linearity.&lt;br/&gt;&lt;br/&gt;2. Low Noise Amplifiers (LNAs)&lt;br/&gt;If you also need a receive path with higher sensitivity (especially for 2-way communication), you&#8217;ll want a low-noise amplifier. Below are some example LNAs covering similar sub-6&#8239;GHz bands.&lt;br/&gt;&lt;br/&gt;Manufacturer / Supplier	Part Number	Freq. Range	Gain	Noise Figure	Approx. Price (USD)	Notes&lt;br/&gt;Mini-Circuits	LNA&#8209;3800&#8209;LN+	3.0&#8211;8.0&#8239;GHz	~20&#8239;dB	#lt;1.5&#8239;dB	$80&#8211;$120	Wideband, SMA connectors, easy to use&lt;br/&gt;Qorvo	QPL9057 (eval kit)	3.0&#8211;5.0&#8239;GHz	~18&#8239;dB	~1&#8239;dB	$50&#8211;$100 (eval)	GaAs-based LNA, good linearity&lt;br/&gt;Skyworks	SKY67151-396LF	1.7&#8211;3.8&#8239;GHz	~17&#8239;dB	~0.9&#8239;dB	$35&#8211;$60	Very low noise figure&lt;br/&gt;Pasternack	PE15A4025	3.0&#8211;3.6&#8239;GHz	~30&#8239;dB	~1.3&#8239;dB	$200&#8211;$400	Rugged module, various connector types&lt;br/&gt;NXP	BGU series (e.g. BGU7045)	2.7&#8211;4.0&#8239;GHz	~16&#8211;20&#8239;dB	1&#8211;1.2&#8239;dB	$1&#8211;$5 (IC only)	IC-based LNAs, need external matching&lt;br/&gt;Analog Devices	ADL8142 (eval board)	2.8&#8211;8.0&#8239;GHz	~22&#8239;dB	~1.8&#8239;dB	$100&#8211;$150 (eval)	Wideband amplifier IC&lt;br/&gt;Infineon	BFP640F (eval kit)	up to ~6&#8239;GHz	~16&#8211;20&#8239;dB	~1&#8239;dB	$30&#8211;$60 (eval)	Silicon-germanium LNA, easy integration&lt;br/&gt;3. Band-Pass Filters&lt;br/&gt;Filtering is critical to meet regulatory requirements and ensure clean transmit/receive. Here are example suppliers and parts for sub-6&#8239;GHz 5G band-pass filtering (often ~3.3&#8211;3.8&#8239;GHz).&lt;br/&gt;&lt;br/&gt;Manufacturer / Supplier	Part Number	Center Freq.	Bandwidth	Approx. Price (USD)	Notes&lt;br/&gt;Mini-Circuits	VBFZ-3500+ (example)	~3.5&#8239;GHz	~100&#8239;MHz	$50&#8211;$150	Ceramic filter, small form factor&lt;br/&gt;K&amp;L Microwave	Custom 3.5&#8239;GHz filter	3.3&#8211;3.6&#8239;GHz	~300&#8239;MHz	$300&#8211;$700 (custom)	Higher-power handling, custom solutions&lt;br/&gt;Pasternack	PEF5338	3.4&#8211;3.6&#8239;GHz	~200&#8239;MHz	$200&#8211;$400	Connectorized band-pass&lt;br/&gt;Epcos (TDK)	B83* series (SAW/BAW)	3.4&#8211;3.8&#8239;GHz	100&#8211;400&#8239;MHz	$5&#8211;$30 (chip)	Surface-mount filters for compact designs&lt;br/&gt;Murata	SAFEB3G series	~3.5&#8239;GHz	~100&#8239;MHz	$5&#8211;$30 (chip)	SAW filters, low insertion loss&lt;br/&gt;Resonant / GVR	Custom BAW Filters	3.3&#8211;4.0&#8239;GHz	~700&#8239;MHz max	$50&#8211;$200 (custom)	High-selectivity, low size, usually custom production&lt;br/&gt;Anatech Electronics	ABP3.5G series	~3.3&#8211;3.7&#8239;GHz	~400&#8239;MHz	$200&#8211;$500	Good stop-band rejection, metal enclosure&lt;br/&gt;4. Duplexers (TDD or FDD)&lt;br/&gt;For TDD (Time Division Duplex) systems, sometimes a T/R switch is sufficient; for FDD (Frequency Division Duplex), a duplexer is needed. Below are some example suppliers.&lt;br/&gt;&lt;br/&gt;Manufacturer / Supplier	Part Number / Series	Freq. Bands	Approx. Price (USD)	Notes&lt;br/&gt;Microlab	D2-34FN (example)	3.4&#8211;3.6&#8239;GHz (TDD)	$500&#8211;$800	Low PIM, N-female connectors&lt;br/&gt;Bird	80x0D Series	3.3&#8211;3.8&#8239;GHz (customizable)	$600&#8211;$1,000+	Cavity duplexers, high isolation&lt;br/&gt;K&amp;L Microwave	Custom Duplexer Solutions	3.3&#8211;3.8&#8239;GHz	$1,000+ (custom)	Rack-mount or connectorized modules&lt;br/&gt;Pasternack	PE8716 Series	~3.4&#8211;3.8&#8239;GHz	$500&#8211;$900	Various channel spacing, TDD/FDD options&lt;br/&gt;Res-Net Microwave	Duplexer/Triplexer units	Typically custom	$1,000+ (custom)	Known for higher-power handling&lt;br/&gt;Comba Telecom	TDD or FDD Duplexers	Sub-6&#8239;GHz bands	$500&#8211;$1,500	Telecom-grade, often used in small cells&lt;br/&gt;Delta RF Technology	Duplexer modules	3.4&#8211;3.6&#8239;GHz TDD	$800&#8211;$1,500+	Customizable passbands and power ratings&lt;br/&gt;5. High-Gain Antennas&lt;br/&gt;Antennas with directional gain (e.g., panel, sector, Yagi, dish) are crucial for extending range. Below are some sub-6&#8239;GHz antenna examples (covering ~3.3&#8211;4.2&#8239;GHz).&lt;br/&gt;&lt;br/&gt;Manufacturer / Supplier	Part Number	Type	Gain (dBi)	Approx. Price (USD)	Notes&lt;br/&gt;KP Performance	KP-3.5GHz-17P	Panel / Sector	17&#8239;dBi	$250&#8211;$400	3.3&#8211;3.8&#8239;GHz, wide beam, N-female&lt;br/&gt;Alpha Wireless	AW3870-T0-F	Sector Antenna	15&#8211;18&#8239;dBi	$300&#8211;$500	Telecom-grade, often for WISP/5G&lt;br/&gt;PCTel	FP-3.5GHz-17	Flat Panel	~17&#8239;dBi	$200&#8211;$400	Weatherproof radome, TDD-LTE/5G usage&lt;br/&gt;Amphenol Antenna Solutions	HGL Panel Series	Panel / Sector	16&#8211;20&#8239;dBi	$400&#8211;$700	LTE/5G small-cell antennas&lt;br/&gt;MTI Wireless Edge	MT-383038/NHH	Flat Panel	~18&#8239;dBi	$350&#8211;$600	Lightweight, IP67 enclosure&lt;br/&gt;Ubiquiti	AF-5G23-S45 (AirFiber series)*	Dish (5&#8239;GHz)**	23&#8239;dBi	$300&#8211;$350	*Primarily 5&#8239;GHz unlicensed; check if covers 5.1&#8211;5.9&#8239;GHz&lt;br/&gt;Taoglas	TAO.35/65 Series	Directional Panel	15&#8211;18&#8239;dBi	$150&#8211;$300	Designed for sub-6&#8239;GHz 5G, smaller form factor&lt;br/&gt;* Note: Some Ubiquiti &#8220;5&#8239;GHz&#8221; antennas may not fully cover the 3.5&#8239;GHz band. Verify the actual frequency specs.&lt;br/&gt;&lt;br/&gt;Typical Example System Block Diagram&lt;br/&gt;scss&lt;br/&gt;Copy code&lt;br/&gt;USRP B210 &lt;br/&gt;&#160;&#160;&#160;| (TX out)&lt;br/&gt;&#160;&#160;&#160;|----#gt; [Band-Pass Filter] ----#gt; [Power Amplifier] ----#gt; [High-Gain Antenna] &lt;br/&gt;&#160;&#160;&#160;&lt;br/&gt;&#160;&#160;&#160;| (RX in)&lt;br/&gt;&#160;&#160;&#160;#lt;---- [LNA] #lt;---- [Band-Pass Filter] #lt;---- [Antenna]&lt;br/&gt;&#160;&#160;&#160;&lt;br/&gt;Optional T/R Switch or Duplexer for TDD/FDD&lt;br/&gt;Rough Price Summary (Very Approximate)&lt;br/&gt;Power Amplifier: $400 (simple eval board) to $10,000+ (high-power rack unit)&lt;br/&gt;Low Noise Amplifier: $5 (single IC) to $400 (connectorized module)&lt;br/&gt;Filter: $5 (small chip) to $700 (high-power cavity)&lt;br/&gt;Duplexer: $500&#8211;$2,000+ depending on power and specs&lt;br/&gt;High-Gain Antenna: $150&#8211;$700&lt;br/&gt;Final Notes and Considerations&lt;br/&gt;Heat Dissipation: High-power amplifiers will need heat sinks and possibly forced air cooling.&lt;br/&gt;Power Supply Requirements: PAs often need 12&#8239;V, 24&#8239;V, or 28&#8239;V supplies at several amps.&lt;br/&gt;Regulatory Compliance:&lt;br/&gt;Check local laws (FCC in the US, ETSI in the EU, etc.).&lt;br/&gt;You must ensure that your total EIRP (PA power + antenna gain) does not exceed legal limits.&lt;br/&gt;Linearity and PAPR: 5G signals have high Peak-to-Average Power Ratios, so choose an amplifier capable of linear operation at your required output power.&lt;br/&gt;Cables and Connectors: At these frequencies, cable losses can be substantial. Use low-loss coax (e.g., LMR-400, LMR-600) and maintain good connector quality.&lt;br/&gt;Availability: Part numbers may change or have lead times, especially for custom filters/duplexers. Always confirm stock and lead time with your distributor.&lt;br/&gt;Disclaimer&lt;br/&gt;The parts listed above are examples to illustrate the types of devices available, not an exhaustive or guaranteed compatible list for your exact 5G band.&lt;br/&gt;Prices are approximate as of this writing and can fluctuate due to supply chain conditions or distributor margins.&lt;br/&gt;Always verify the exact frequency range, gain, power, noise figure, and other specs you need for your design.&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent != null ? parent.toggleItem('LinkedDocument') : toggleItem('LinkedDocument');" id="LinkedDocumentTitle">Linked Document</li>
+			<li onClick="parent != null ? parent.toggleItem('CustomProperties') : toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent != null ? parent.toggleItem('Links') : toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="LinkedDocumentTable">
+			<iframe src="../../../linkdocs/EAID_7CFA0624_3E10_4251_B938_3A94572506E2.htm" frameborder="0" id="linkDocIFrame"></iframe>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isReference:</td>
+				<td width="70%" class="TableRow">False</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isOrdered:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isUnique:</td>
+				<td width="70%" class="TableRow">true</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isDerived:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isID:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isReadOnly:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">aggregation:</td>
+				<td width="70%" class="TableRow">none</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isDerivedUnion:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isStatic:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+
+			</table>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA126.htm">PA transmitting power</a></td>
+					<td width="10%" class="TableRow" valign="top">Property</td>
+					<td width="10%" class="TableRow" valign="top">Connector</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA120.htm">Antenna Bandwidth and Gain</a></td>
+					<td width="10%" class="TableRow" valign="top">Property</td>
+					<td width="10%" class="TableRow" valign="top">Connector</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

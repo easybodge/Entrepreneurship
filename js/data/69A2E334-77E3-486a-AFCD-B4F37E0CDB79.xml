@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.25.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA25/EA4/EA989.htm", "182.png", "458", "0", "", "CompositeStructure diagram0","{80CBCFA5-8CD8-4168-AC88-ACAE12975104}");
+tocTab[tocTab.length] = new Array("0.8.25.4:2", "", "a is second moe", "EARoot/EA8/EA25/EA4/EA992.htm", "118.png", "E4881", "0", "", "Part0","{3C1E59B4-2812-4eb5-97E7-8069AFCEDC77}");
+tocTab[tocTab.length] = new Array("0.8.25.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA25/EA4/EA993.htm", "118.png", "E4879", "0", "", "Part0","{B110CB45-6F6E-4536-8165-9E709832440F}");
+tocTab[tocTab.length] = new Array("0.8.25.4:4", "", "q is third moe", "EARoot/EA8/EA25/EA4/EA994.htm", "118.png", "E4882", "0", "", "Part0","{8AFA88C4-F1CA-438a-8B69-2CC81E8B5279}");
+tocTab[tocTab.length] = new Array("0.8.25.4:5", "", "this is first moe", "EARoot/EA8/EA25/EA4/EA995.htm", "118.png", "E4880", "0", "", "Part0","{0B729016-38E9-4b75-80CF-C0A4770341FB}");
+tocTab[tocTab.length] = new Array("0.8.25.4:6", "", "Port4", "EARoot/EA8/EA25/EA4/EA996.htm", "95.png", "E4886", "E4879", "", "Port0","{CB28E7E2-C256-4d18-B17F-1CE90BBBC9E0}");
+tocTab[tocTab.length] = new Array("0.8.25.4:7", "", "Port5", "EARoot/EA8/EA25/EA4/EA997.htm", "95.png", "E4887", "E4879", "", "Port0","{F10BCFB9-5A70-453b-A94D-2F75F74E4E3A}");
+tocTab[tocTab.length] = new Array("0.8.25.4:8", "", "Port6", "EARoot/EA8/EA25/EA4/EA998.htm", "95.png", "E4888", "E4879", "", "Port0","{4621D689-CA87-4348-8A9F-30BE50797C84}");
+tocTab[tocTab.length] = new Array("0.8.25.4:9", "", "Port1", "EARoot/EA8/EA25/EA4/EA999.htm", "95.png", "E4883", "E4880", "", "Port0","{27FCB3C0-A673-499e-8F81-7EE0E939D106}");
+tocTab[tocTab.length] = new Array("0.8.25.4:10", "", "Port2", "EARoot/EA8/EA25/EA4/EA1000.htm", "95.png", "E4884", "E4881", "", "Port0","{AD1E69CB-FE65-4275-9B3F-2C8712A1F114}");
+tocTab[tocTab.length] = new Array("0.8.25.4:11", "", "Port3", "EARoot/EA8/EA25/EA4/EA1001.htm", "95.png", "E4885", "E4882", "", "Port0","{09048585-DAE0-4c23-9123-F2E53759239D}");

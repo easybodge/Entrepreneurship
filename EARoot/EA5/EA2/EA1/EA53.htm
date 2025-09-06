@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Creating custom firmware using vivado for AntSDR</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Creating custom firmware using vivado for AntSDR </h1>
+			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../EA1.htm">Domain</a> / <a href="../../EA32.htm">Structure</a> / <a href="../EA39.htm">SDR</a> / <a href="EA52.htm">Ant-SDR</a> / <a href="EA53.htm">Creating custom firmware using vivado for AntSDR</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<a href="EA52.htm">Ant-SDR</a></ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Creating custom firmware using vivado for AntSDR  : Public   Activity</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">14/01/2025 00:37:40</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">14/01/2025 01:36:44</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">k_war</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{26A0A291-C9F9-48b7-BBE9-A788610C26E0}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Below is a high-level explanation of what each directory in the ANTSDR firmware repository typically contains, which parts you open in Vivado, and how the device tree, bitstream, and boot files get generated.&lt;br/&gt;&lt;br/&gt;1. Repository Layout: What Each Directory Does&lt;br/&gt;&lt;b&gt;buildroot/&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Contains Buildroot configuration and scripts used to compile a root filesystem (the &#8220;rootfs&#8221;) for Linux.&lt;br/&gt;You do not open this in Vivado. Buildroot is for creating your embedded Linux filesystem (binaries, libraries, etc.).&lt;br/&gt;&lt;br/&gt;&lt;b&gt;fpga/&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Contains Vivado project files, block design (BD) files, custom IP, and/or TCL scripts to create and build the FPGA design.&lt;br/&gt;This is what you open in Vivado if you want to modify or rebuild the FPGA bitstream (.bit file).&lt;br/&gt;&lt;br/&gt;&lt;b&gt;linux/&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Holds Linux kernel source or patches/configs for building the kernel (uImage or Image).&lt;br/&gt;You do not open this in Vivado. This is for the kernel build, typically handled by cross-compilation or by the top-level Makefile.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;scripts/&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Various helper scripts used by the build process, such as generating the device tree, running bootgen, packing rootfs images, etc.&lt;br/&gt;You do not open this in Vivado. You might call these scripts during your firmware build.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;u-boot-xlnx/&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Contains U-Boot source (Xilinx/ARM version).&lt;br/&gt;Also not opened in Vivado. Built with a cross-compiler to produce u-boot.elf.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Makefile (at the top level, or in firmware/ folder)&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Coordinates the entire build:&lt;br/&gt;Builds FPGA bitstream (sometimes by calling Vivado in batch mode or expecting you to bring in the .bit).&lt;br/&gt;Builds U-Boot.&lt;br/&gt;Builds the kernel.&lt;br/&gt;Generates or gathers the device tree.&lt;br/&gt;Produces BOOT.bin.&lt;br/&gt;Optionally creates the SD card image (make sdimg) with everything in place.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;2. Which Part Do I Open in Vivado?&lt;/b&gt;&lt;br/&gt;If you want to create custom FPGA logic or edit the existing design, you open the fpga directory (specifically the subfolder that contains the Vivado project, e.g. fpga/antsdr_e200/ or a .xpr file). That&#8217;s where the hardware definition lives. For example:&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Launch Vivado (version specified by the project, e.g., 2019.1).&lt;/li&gt;&lt;/ul&gt;<br />&lt;ol&gt;<br />&lt;li&gt;Open Project &#8594; navigate to antsdr_uhd/firmware/fpga/antsdr_e200/ (or similar).&lt;/li&gt;&lt;/ol&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Edit block designs, custom IP, or top-level HDL.&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Synthesize, implement, and generate a .bit file.&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Everything else (buildroot, linux, u-boot-xlnx) is for the software or bootloader side, not Vivado.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;b&gt;3. How Are .bit, devicetree.dtb, BOOT.bin, etc. Created?&lt;/b&gt;&lt;br/&gt;&lt;b&gt;FPGA Bitstream (.bit)&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;You generate it by Synthesize &#8594; Implement &#8594; Generate Bitstream in Vivado.&lt;br/&gt;This results in something like antsdr_e200.bit in the Vivado output directory.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Device Tree (devicetree.dtb)&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Usually generated by a script or Makefile that reads the hardware definition (e.g., a .hdf or .xsa file exported from Vivado) and converts it into a .dts &#8594; .dtb.&lt;br/&gt;Sometimes partially auto-generated; sometimes partially hand-edited. It depends on the workflow.&lt;br/&gt;You typically don&#8217;t do this step in Vivado. Instead, a build script (often in scripts/ or in the top-level Makefile) runs dtc (device tree compiler) to produce devicetree.dtb.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;BOOT.bin&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Xilinx Bootgen tool merges:&lt;br/&gt;FSBL (fsbl.elf),&lt;br/&gt;FPGA bitstream (.bit),&lt;br/&gt;U-Boot (u-boot.elf),&lt;br/&gt;into one file called BOOT.bin.&lt;br/&gt;Typically, you have a boot.bif file describing what to bundle. The main build system calls:&lt;br/&gt;&lt;br/&gt;bootgen -image boot.bif -o BOOT.bin -w&lt;br/&gt;&lt;br/&gt;Again, this is automated by the top-level Makefile or a script.&lt;br/&gt;&lt;br/&gt;You don&#8217;t open Bootgen in Vivado. It&#8217;s a separate command-line or script-based step.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Kernel (uImage)&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Built via the cross-compiler (GCC for ARM) in the linux/ folder, or also triggered from the top-level Makefile.&lt;br/&gt;The result is uImage (or Image + uImage).&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Root Filesystem&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;Created by Buildroot (in buildroot/) or another embedded Linux build system.&lt;br/&gt;The final product might be a rootfs tarball (rootfs.tar.gz) for ext4-based systems, or an initramfs (uramdisk.image.gz) if using a ramdisk approach.&lt;br/&gt;&lt;br/&gt;4. Putting It All Together and Onto the SD Card&lt;br/&gt;After you run the top-level build (e.g., make in antsdr_uhd/firmware), you end up with a build/ folder containing:&lt;br/&gt;&lt;br/&gt;BOOT.bin&lt;br/&gt;uImage&lt;br/&gt;devicetree.dtb&lt;br/&gt;antsdr_e200.bit (optionally also embedded in BOOT.bin)&lt;br/&gt;Possibly a uramdisk.image.gz or other rootfs image&lt;br/&gt;&lt;br/&gt;You then either:&lt;br/&gt;Single FAT32 Partition: Copy those files + (optionally) uramdisk.image.gz onto the SD card.&lt;br/&gt;Two Partitions (FAT32 + ext4):&lt;br/&gt;FAT32 for BOOT.bin, uImage, .dtb, etc.&lt;br/&gt;ext4 for the root filesystem (rootfs/ or extracted rootfs.tar.gz).&lt;br/&gt;&lt;br/&gt;&lt;b&gt;TL;DR: The Workflow&lt;/b&gt;&lt;br/&gt;Vivado (open fpga/ folder project):&lt;br/&gt;&lt;br/&gt;Modify or create your custom logic.&lt;br/&gt;Generate .bit.&lt;br/&gt;&lt;br/&gt;Export Hardware (optional, if device tree or FSBL needs updating):&lt;br/&gt;&lt;br/&gt;File &#8594; Export &#8594; Export Hardware (including bitstream).&lt;br/&gt;Produces .hdf or .xsa.&lt;br/&gt;&lt;br/&gt;Build Firmware (top-level Makefile):&lt;br/&gt;make or make all in antsdr_uhd/firmware (or wherever instructed).&lt;br/&gt;&lt;br/&gt;This compiles:&lt;br/&gt;FSBL using Xilinx tools.&lt;br/&gt;U-Boot from u-boot-xlnx.&lt;br/&gt;Linux kernel from linux/.&lt;br/&gt;Device tree (by reading .hdf/.xsa or using a template).&lt;br/&gt;BOOT.bin using Bootgen.&lt;br/&gt;Possibly calls Buildroot in buildroot/ to produce a rootfs.&lt;br/&gt;&lt;br/&gt;Prepare SD Card:&lt;br/&gt;&lt;br/&gt;Format one partition if using an initramfs, or two partitions (FAT32 + ext4) if storing the rootfs externally.&lt;br/&gt;Copy BOOT.bin, .bit, uImage, devicetree.dtb, etc. to the FAT32 partition.&lt;br/&gt;Copy/extract the rootfs (if using ext4) onto the ext4 partition.&lt;br/&gt;&lt;br/&gt;Boot:&lt;br/&gt;&lt;br/&gt;Insert card in ANTSDR.&lt;br/&gt;Set SD boot mode.&lt;br/&gt;Power on, watch the serial console.&lt;br/&gt;&lt;br/&gt;That&#8217;s how the directories fit together&#8212;and which you open in Vivado (only fpga/) to integrate custom logic, then produce the final boot files for your SD card.&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent != null ? parent.toggleItem('CustomProperties') : toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+		</ul>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isReadOnly:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

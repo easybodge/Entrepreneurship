@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.37.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA37/EA4/EA1295.htm", "182.png", "383", "0", "", "CompositeStructure diagram0","{4F6FDE2C-F431-4dff-982C-44A2D74519BE}");
+tocTab[tocTab.length] = new Array("0.8.37.4:2", "", "a is second moe", "EARoot/EA8/EA37/EA4/EA1298.htm", "118.png", "E3843", "0", "", "Part0","{3D13D281-0E7B-465c-B93C-6403A418B5C1}");
+tocTab[tocTab.length] = new Array("0.8.37.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA37/EA4/EA1299.htm", "118.png", "E3841", "0", "", "Part0","{E77B14F3-5C63-4991-B494-BF1F310F6B3B}");
+tocTab[tocTab.length] = new Array("0.8.37.4:4", "", "q is third moe", "EARoot/EA8/EA37/EA4/EA1300.htm", "118.png", "E3844", "0", "", "Part0","{E54C3C96-43E8-4e3b-AE01-F66A77206E54}");
+tocTab[tocTab.length] = new Array("0.8.37.4:5", "", "this is first moe", "EARoot/EA8/EA37/EA4/EA1301.htm", "118.png", "E3842", "0", "", "Part0","{8905CD4F-2929-4486-AFEF-54990E776C6D}");
+tocTab[tocTab.length] = new Array("0.8.37.4:6", "", "Port4", "EARoot/EA8/EA37/EA4/EA1302.htm", "95.png", "E3848", "E3841", "", "Port0","{627182D1-92B1-46d9-A0B9-05DFE2790BC4}");
+tocTab[tocTab.length] = new Array("0.8.37.4:7", "", "Port5", "EARoot/EA8/EA37/EA4/EA1303.htm", "95.png", "E3849", "E3841", "", "Port0","{DA314048-9310-4eb9-92A9-946423DE0C6E}");
+tocTab[tocTab.length] = new Array("0.8.37.4:8", "", "Port6", "EARoot/EA8/EA37/EA4/EA1304.htm", "95.png", "E3850", "E3841", "", "Port0","{3C49066B-2330-4f50-B531-F11FCD7B7E13}");
+tocTab[tocTab.length] = new Array("0.8.37.4:9", "", "Port1", "EARoot/EA8/EA37/EA4/EA1305.htm", "95.png", "E3845", "E3842", "", "Port0","{1FEA813C-CE79-423c-A8EA-74D46C959C09}");
+tocTab[tocTab.length] = new Array("0.8.37.4:10", "", "Port2", "EARoot/EA8/EA37/EA4/EA1306.htm", "95.png", "E3846", "E3843", "", "Port0","{95817401-E55C-41e4-BAD8-5ED030880449}");
+tocTab[tocTab.length] = new Array("0.8.37.4:11", "", "Port3", "EARoot/EA8/EA37/EA4/EA1307.htm", "95.png", "E3847", "E3844", "", "Port0","{7D0BB499-BD4B-4521-B450-DF36BA3B7ADA}");

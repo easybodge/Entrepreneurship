@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.8.39.2.2.1", "1", "1- Proposed Idea or Technology", "EARoot/EA8/EA39/EA2/EA2/EA1/EA1463.htm", "4.png", "", "", "{52DF40E3-BADB-4182-ABF4-8907D800D17B}", "Package");
+tocTab[tocTab.length] = new Array("0.8.39.2.2.2", "1", "2- Technical Project Summary", "EARoot/EA8/EA39/EA2/EA2/EA2/EA1483.htm", "4.png", "", "", "{7766AA25-35C2-4d10-8B2C-C665F5AF9D5F}", "Package");
+tocTab[tocTab.length] = new Array("0.8.39.2.2.3", "1", "3-Current State of art and IP", "EARoot/EA8/EA39/EA2/EA2/EA3/EA1506.htm", "4.png", "", "", "{7D3C0599-CA96-4ab5-809E-F9B784A2200C}", "Package");
+tocTab[tocTab.length] = new Array("0.8.39.2.2.4", "1", "4- Project Plan and Methodology", "EARoot/EA8/EA39/EA2/EA2/EA4/EA1529.htm", "4.png", "", "", "{599FD099-7197-409c-84D6-5D2C8BB7A180}", "Package");
+tocTab[tocTab.length] = new Array("0.8.39.2.2.5", "1", "5- Technical Team & Expertise", "EARoot/EA8/EA39/EA2/EA2/EA5/EA1563.htm", "4.png", "", "", "{9D06B009-D157-4126-81E7-DFCC25FA6A37}", "Package");
+tocTab[tocTab.length] = new Array("0.8.39.2.2.6", "1", "6-Costs and value for money", "EARoot/EA8/EA39/EA2/EA2/EA6/EA1580.htm", "4.png", "", "", "{A126CEFC-C6DF-4971-8984-1F0D643D8F59}", "Package");
+tocTab[tocTab.length] = new Array("0.8.39.2.2.7", "1", "7- Commercial Potential", "EARoot/EA8/EA39/EA2/EA2/EA7/EA1598.htm", "4.png", "", "", "{5077C3BB-50DF-40a3-95CC-D9BC1A10E804}", "Package");

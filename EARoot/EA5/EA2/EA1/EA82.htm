@@ -1,0 +1,280 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>build firmware</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> build firmware </h1>
+			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../EA1.htm">Domain</a> / <a href="../../EA32.htm">Structure</a> / <a href="../EA39.htm">SDR</a> / <a href="EA52.htm">Ant-SDR</a> / <a href="EA56.htm">downloading firmware on AntSDR</a> / <a href="EA82.htm">:build firmware</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<a href="EA56.htm">downloading firmware on AntSDR</a></ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">  : Public   Action</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">13/01/2025 22:13:51</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">13/01/2025 22:53:07</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">k_war</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{5DDF8B7F-3C94-4fda-96A8-B59F81FFB171}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA50.htm">downloading uhd on ant and programming host</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">firmware directory contains directories of buildroot, fpga, linux, u-boot-xlnx as well as sripts and another file called Makefile. All directories except scripts are simply repositories imported from github or other resources. They used Makefile and possibly scripts to add instructions for compiler to create the boot files. &lt;br/&gt;see the functional decomposition of build firmware to see further information&lt;br/&gt;&lt;br/&gt;&lt;b&gt;see instructions here to build firmware form the directory&lt;/b&gt;&lt;br/&gt;https://github.com/MicroPhase/antsdr_uhd/tree/master/firmware and in attached link document which is copy of the info in link at time of writing&lt;br/&gt;&lt;br/&gt;&lt;b&gt;here is how it all works&lt;/b&gt;&lt;br/&gt;&lt;b&gt;&lt;br/&gt;&lt;/b&gt;From these instructions and the repository layout, here&#8217;s what&#8217;s happening in a nutshell:&lt;br/&gt;&lt;br/&gt;Repository Structure&lt;br/&gt;&lt;br/&gt;buildroot/: Contains Buildroot configuration and files to build the root filesystem (rootfs).&lt;br/&gt;fpga/: Contains the FPGA source (Vivado project files, HDL, constraints) to generate the .bit bitstream.&lt;br/&gt;linux/: Holds the Linux kernel source or patches/configs for building the kernel image (uImage).&lt;br/&gt;scripts/: Build/utility scripts that automate tasks like packaging firmware, generating SD card images, etc.&lt;br/&gt;u-boot-xlnx/: Source for building U-Boot (the bootloader) tailored for the Zynq-based ANTSDR E200.&lt;br/&gt;Makefile (top-level): A master build script that orchestrates each sub-component (FPGA, U-Boot, kernel, rootfs) when you type make.&lt;br/&gt;Overall Goal&lt;br/&gt;The instructions outline how to compile a complete firmware image for the E200&#8212;that is, everything needed for the board to boot Linux and run the UHD driver. This includes:&lt;br/&gt;&lt;br/&gt;FPGA bitstream (antsdr_e200.bit)&lt;br/&gt;Bootloader (fsbl.elf, u-boot.elf, BOOT.bin)&lt;br/&gt;Linux kernel (uImage)&lt;br/&gt;Device tree (device_tree.dtb)&lt;br/&gt;Root filesystem (via Buildroot)&lt;br/&gt;Build Steps&lt;br/&gt;&lt;br/&gt;Install Build Dependencies&lt;br/&gt;You need compilers, libraries, and tools like git, fakeroot, ncurses5-dev, u-boot-tools, etc.&lt;br/&gt;Clone the Firmware Repo&lt;br/&gt;bash&lt;br/&gt;Copy code&lt;br/&gt;git clone git@github.com:MicroPhase/antsdr_uhd.git&lt;br/&gt;Set Environment Variables&lt;br/&gt;CROSS_COMPILE for ARM cross-compilation.&lt;br/&gt;PATH to include the Xilinx SDK&#8217;s ARM toolchain.&lt;br/&gt;VIVADO_SETTINGS for sourcing the proper Vivado environment.&lt;br/&gt;Build the Firmware&lt;br/&gt;From antsdr_uhd/firmware:&lt;br/&gt;bash&lt;br/&gt;Copy code&lt;br/&gt;make&lt;br/&gt;This runs through each submodule&#8212;FPGA bitstream generation, U-Boot build, Linux build, etc.&#8212;and places the resulting files in a build/ directory.&lt;br/&gt;Make SD Card Image&lt;br/&gt;After building, you run:&lt;br/&gt;bash&lt;br/&gt;Copy code&lt;br/&gt;make sdimg&lt;br/&gt;This assembles the required boot files (bitstream, U-Boot, kernel, device tree, etc.) into build_sdimg/.&lt;br/&gt;Deploy on SD Card&lt;br/&gt;&lt;br/&gt;FAT32 Partition: Copy over BOOT.bin, antsdr_e200.bit, uImage, device_tree.dtb, uEnv.txt, etc.&lt;br/&gt;Ext4 Partition: Put the root filesystem (the Buildroot output).&lt;br/&gt;Boot: Set the ANTSDR E200 to boot from SD, power it on, and watch the serial console.&lt;br/&gt;What It All Means&lt;br/&gt;&lt;br/&gt;You&#8217;re effectively constructing a custom Linux system (kernel + rootfs) along with the FPGA firmware on a Xilinx Zynq SoC.&lt;br/&gt;By following the make commands in the top-level Makefile, you build each piece (FPGA, U-Boot, Linux, rootfs) that together form the E200 firmware.&lt;br/&gt;Once on the board, you&#8217;ll have a working Linux environment, plus the UHD driver stack to interface with the ANTSDR hardware.&lt;br/&gt;Bottom Line:&lt;br/&gt;The instructions guide you through building a complete system for the E200&#8212;FPGA bitstream, bootloader, kernel, and rootfs&#8212;using the directories in the repository. Afterward, you place these artifacts on an SD card (FAT32 + ext4) to boot the board into Linux with UHD support.&lt;br/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent != null ? parent.toggleItem('LinkedDocument') : toggleItem('LinkedDocument');" id="LinkedDocumentTitle">Linked Document</li>
+			<li onClick="parent != null ? parent.toggleItem('FlowTo') : toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="parent != null ? parent.toggleItem('FlowFrom') : toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
+			<li onClick="parent != null ? parent.toggleItem('CustomProperties') : toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+		</ul>
+		<div class="ItemBody" id="LinkedDocumentTable">
+			<iframe src="../../../../linkdocs/EAID_5DDF8B7F_3C94_4fda_96A8_B59F81FFB171.htm" frameborder="0" id="linkDocIFrame"></iframe>
+		</div>
+		<div class="ItemBody" id="FlowToTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA83.htm">add to sd card</a><br />
+						Action &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow26" /></button>Details:
+							<div id="detailsDIVLinkFlow26" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="ItemBody" id="FlowFromTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA94.htm">use prebuilt?</a><br />
+						Decision &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow27" /></button>Details:
+							<div id="detailsDIVLinkFlow27" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">kind:</td>
+				<td width="70%" class="TableRow">CallBehavior</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isOrdered:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isLocallyReentrant:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isUnmarshall:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isReplaceAll:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isSynchronous:</td>
+				<td width="70%" class="TableRow">true</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isDestroyLinks:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isDestroyOwnedObjects:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isRemoveDuplicates:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isDirect:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+
+			</table>
+		</div>	</div>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

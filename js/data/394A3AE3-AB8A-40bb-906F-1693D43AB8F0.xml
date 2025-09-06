@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.28.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA28/EA4/EA1055.htm", "182.png", "464", "0", "", "CompositeStructure diagram0","{5D8E1F60-7803-4161-A531-487D96006C54}");
+tocTab[tocTab.length] = new Array("0.8.28.4:2", "", "a is second moe", "EARoot/EA8/EA28/EA4/EA1058.htm", "118.png", "E4971", "0", "", "Part0","{09705538-7AD0-4c09-9A2B-498B9C2DEB6D}");
+tocTab[tocTab.length] = new Array("0.8.28.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA28/EA4/EA1059.htm", "118.png", "E4969", "0", "", "Part0","{152E2BAB-2878-4b33-86CF-607FD55AD064}");
+tocTab[tocTab.length] = new Array("0.8.28.4:4", "", "q is third moe", "EARoot/EA8/EA28/EA4/EA1060.htm", "118.png", "E4972", "0", "", "Part0","{B9DDCB2C-A126-4f0e-930E-FB3FB84AB92A}");
+tocTab[tocTab.length] = new Array("0.8.28.4:5", "", "this is first moe", "EARoot/EA8/EA28/EA4/EA1061.htm", "118.png", "E4970", "0", "", "Part0","{D9081CD2-92BE-4163-8F6A-4C0B0530CFBB}");
+tocTab[tocTab.length] = new Array("0.8.28.4:6", "", "Port4", "EARoot/EA8/EA28/EA4/EA1062.htm", "95.png", "E4976", "E4969", "", "Port0","{85424583-FF86-4d5f-8A89-6E2706A522FB}");
+tocTab[tocTab.length] = new Array("0.8.28.4:7", "", "Port5", "EARoot/EA8/EA28/EA4/EA1063.htm", "95.png", "E4977", "E4969", "", "Port0","{803681B5-DF07-4410-930F-997361F316A9}");
+tocTab[tocTab.length] = new Array("0.8.28.4:8", "", "Port6", "EARoot/EA8/EA28/EA4/EA1064.htm", "95.png", "E4978", "E4969", "", "Port0","{81E00BA2-D3BD-44ee-8D81-72F6CE40A08C}");
+tocTab[tocTab.length] = new Array("0.8.28.4:9", "", "Port1", "EARoot/EA8/EA28/EA4/EA1065.htm", "95.png", "E4973", "E4970", "", "Port0","{76CF79AA-274D-46f5-AE0F-500963962323}");
+tocTab[tocTab.length] = new Array("0.8.28.4:10", "", "Port2", "EARoot/EA8/EA28/EA4/EA1066.htm", "95.png", "E4974", "E4971", "", "Port0","{0F559D1C-E45A-4de3-BC38-E8F00C9FC9E4}");
+tocTab[tocTab.length] = new Array("0.8.28.4:11", "", "Port3", "EARoot/EA8/EA28/EA4/EA1067.htm", "95.png", "E4975", "E4972", "", "Port0","{4F3E9E3F-7C44-4423-946E-B61943FBC1CC}");

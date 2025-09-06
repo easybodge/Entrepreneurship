@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.15.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA15/EA4/EA713.htm", "182.png", "452", "0", "", "CompositeStructure diagram0","{59475FA8-4CD2-4316-BD0D-6245B8A7221F}");
+tocTab[tocTab.length] = new Array("0.8.15.4:2", "", "a is second moe", "EARoot/EA8/EA15/EA4/EA716.htm", "118.png", "E4791", "0", "", "Part0","{C23B1839-0C11-440c-8EE9-38AEEB83BEDA}");
+tocTab[tocTab.length] = new Array("0.8.15.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA15/EA4/EA717.htm", "118.png", "E4789", "0", "", "Part0","{4F4448C4-212B-4aa0-9E7E-35F9E70B74B4}");
+tocTab[tocTab.length] = new Array("0.8.15.4:4", "", "q is third moe", "EARoot/EA8/EA15/EA4/EA718.htm", "118.png", "E4792", "0", "", "Part0","{C870231F-EA57-44b8-A5E2-48ED709E9CDF}");
+tocTab[tocTab.length] = new Array("0.8.15.4:5", "", "this is first moe", "EARoot/EA8/EA15/EA4/EA719.htm", "118.png", "E4790", "0", "", "Part0","{4A128192-6314-4db9-90EA-CBB02A4357AA}");
+tocTab[tocTab.length] = new Array("0.8.15.4:6", "", "Port4", "EARoot/EA8/EA15/EA4/EA720.htm", "95.png", "E4796", "E4789", "", "Port0","{7C42F55D-2977-4895-A7E3-39F339F8DAF7}");
+tocTab[tocTab.length] = new Array("0.8.15.4:7", "", "Port5", "EARoot/EA8/EA15/EA4/EA721.htm", "95.png", "E4797", "E4789", "", "Port0","{8B7375C6-1637-457c-9352-F677ECB8FE13}");
+tocTab[tocTab.length] = new Array("0.8.15.4:8", "", "Port6", "EARoot/EA8/EA15/EA4/EA722.htm", "95.png", "E4798", "E4789", "", "Port0","{4F32EEDB-64E4-4778-BBCF-DC12E4F32143}");
+tocTab[tocTab.length] = new Array("0.8.15.4:9", "", "Port1", "EARoot/EA8/EA15/EA4/EA723.htm", "95.png", "E4793", "E4790", "", "Port0","{5AE43E78-A04B-4eb2-A569-402237BA2082}");
+tocTab[tocTab.length] = new Array("0.8.15.4:10", "", "Port2", "EARoot/EA8/EA15/EA4/EA724.htm", "95.png", "E4794", "E4791", "", "Port0","{ADEA3269-EBBB-4ad1-9065-2D52456686AF}");
+tocTab[tocTab.length] = new Array("0.8.15.4:11", "", "Port3", "EARoot/EA8/EA15/EA4/EA725.htm", "95.png", "E4795", "E4792", "", "Port0","{05B16BDA-8CCF-40e1-8C5E-19144F6CAAB0}");

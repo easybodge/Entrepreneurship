@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.22.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA22/EA4/EA924.htm", "182.png", "498", "0", "", "CompositeStructure diagram0","{7F35D170-532D-4bd7-AFFD-0060190CA357}");
+tocTab[tocTab.length] = new Array("0.8.22.4:2", "", "a is second moe", "EARoot/EA8/EA22/EA4/EA927.htm", "118.png", "E5501", "0", "", "Part0","{FD8B0A6A-C766-4b3a-976C-9D12F1BC8871}");
+tocTab[tocTab.length] = new Array("0.8.22.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA22/EA4/EA928.htm", "118.png", "E5499", "0", "", "Part0","{E37DC0F8-9AAB-4216-8F23-0B4241D95300}");
+tocTab[tocTab.length] = new Array("0.8.22.4:4", "", "q is third moe", "EARoot/EA8/EA22/EA4/EA929.htm", "118.png", "E5502", "0", "", "Part0","{ABF5A422-C425-4681-B503-05913982197A}");
+tocTab[tocTab.length] = new Array("0.8.22.4:5", "", "this is first moe", "EARoot/EA8/EA22/EA4/EA930.htm", "118.png", "E5500", "0", "", "Part0","{70D17E18-0FE3-4887-AF34-C9316BD2F899}");
+tocTab[tocTab.length] = new Array("0.8.22.4:6", "", "Port4", "EARoot/EA8/EA22/EA4/EA931.htm", "95.png", "E5506", "E5499", "", "Port0","{D0B63B14-A3E8-4182-8486-1235FB6B398C}");
+tocTab[tocTab.length] = new Array("0.8.22.4:7", "", "Port5", "EARoot/EA8/EA22/EA4/EA932.htm", "95.png", "E5507", "E5499", "", "Port0","{083E3F0C-248C-464a-9CC7-E97B81DD6E7E}");
+tocTab[tocTab.length] = new Array("0.8.22.4:8", "", "Port6", "EARoot/EA8/EA22/EA4/EA933.htm", "95.png", "E5508", "E5499", "", "Port0","{5E486039-CF21-42d2-AE59-8F89BFA2FB34}");
+tocTab[tocTab.length] = new Array("0.8.22.4:9", "", "Port1", "EARoot/EA8/EA22/EA4/EA934.htm", "95.png", "E5503", "E5500", "", "Port0","{DB2BC8A5-B8DF-4150-AAF2-5A3AA6AFE7BF}");
+tocTab[tocTab.length] = new Array("0.8.22.4:10", "", "Port2", "EARoot/EA8/EA22/EA4/EA935.htm", "95.png", "E5504", "E5501", "", "Port0","{3EEA1136-80FB-420d-8C16-C4E1D27F69FC}");
+tocTab[tocTab.length] = new Array("0.8.22.4:11", "", "Port3", "EARoot/EA8/EA22/EA4/EA936.htm", "95.png", "E5505", "E5502", "", "Port0","{794E1BED-190E-4f05-9D17-0974703F3145}");

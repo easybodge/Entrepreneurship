@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.8.40.5.3.4:1", "", "How LPs team with VCs", "EARoot/EA8/EA40/EA5/EA3/EA4/EA4039.htm", "175.png", "561", "0", "", "Logical diagram0","{40108DF5-76B1-40a1-8D9D-BE4CB5F6A1A1}");
+tocTab[tocTab.length] = new Array("0.8.40.5.3.4:2", "", "How LPs team with VCs", "EARoot/EA8/EA40/EA5/EA3/EA4/EA4042.htm", "5.png", "E6376", "0", "", "Class0","{48886D2D-E079-467b-9732-B59CD4FE3268}");
+tocTab[tocTab.length] = new Array("0.8.40.5.3.4:3", "", "Limited Partnership Agreement LPA", "EARoot/EA8/EA40/EA5/EA3/EA4/EA4043.htm", "5.png", "E6394", "0", "", "Class0","{AEE82F93-A6F0-4a3e-A90D-BC1F2636931B}");
+tocTab[tocTab.length] = new Array("0.8.40.5.3.4:4", "", "VC Fund", "EARoot/EA8/EA40/EA5/EA3/EA4/EA4044.htm", "5.png", "E6395", "0", "", "Class0","{130A9C01-9EF9-4f4f-BA80-C28169DBDE59}");
+tocTab[tocTab.length] = new Array("0.8.40.5.3.4:5", "", ": Limited Partnership Agreement LPA", "EARoot/EA8/EA40/EA5/EA3/EA4/EA4045.htm", "118.png", "E6396", "E6376", "", "Part0","{1C5BB508-4454-4d66-BB42-2BDAEB00DDDC}");
+tocTab[tocTab.length] = new Array("0.8.40.5.3.4:6", "", ": VC Fund", "EARoot/EA8/EA40/EA5/EA3/EA4/EA4046.htm", "118.png", "E6397", "E6376", "", "Part0","{4AA5DBB2-E3A2-4ecf-BB01-7BC4ADC10A07}");

@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Build Metrics Toolset</title>
+<link href="../../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Build Metrics Toolset </h1>
+			<!-- <img class="header_image" src="../../../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../../EA1.htm">Domain</a> / <a href="../../../../../EA136.htm">Business Ingredients & Building Block</a> / <a href="../../../../EA1658.htm">Courses & Training</a> / <a href="../../../EA1669.htm">Steve Blank - Owner&#39;s Manual</a> / <a href="../../EA1967.htm">Customer Validation</a> / <a href="../EA1973.htm">Behaviour</a> / <a href="EA1982.htm">P1- Get Read to sell</a> / <a href="EA1988.htm">Build Metrics Toolset</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<a href="EA1982.htm">P1- Get Read to sell</a></ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Build Metrics Toolset  : Public   Activity</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">19/08/2025 03:54:15</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">19/08/2025 04:06:03</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">k_war</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{48437ABE-76C1-4fec-8DE0-6051D8334978}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA1980.htm">P1- Get Read to sell</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Web/mobile businesses focus on data collection, analysis and optimization from the day they go live till the day the doors close. A web/mobile startup&#8217;s conversion funnel monitors customers through their entire life cycle. The entire process is driven by a never-ending campaign to test, measure, and optimize every step in the funnel, from awareness to purchase. It&#8217;s a 24/7 process of &#8220;try it, measure it, tweak it.&lt;br/&gt;&lt;br/&gt;Web/mobile businesses focus on data collection, analysis and optimization from the day they go live til the day the doors close.&lt;br/&gt;&lt;br/&gt;The products you build should be instrumented to measure every click on the website or app, its source, and the action it causes or doesn&#8217;t. As a result, the management team should have at its fingertips a dashboard that summarizes every key, actionable user behavior, and delivers insights and trends that drive continual business improvement. &lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;There are two parts to building a metrics tool set: determining which key business metrics need to be measured&lt;/li&gt;&lt;li&gt;developing a dashboard or system to collect and monitor the data&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Using customer relationship hypothesis, identify the metrics for success in business model. &lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;How many customers are acquired, and how many of those are activated? (And how many are lost? And where in the purchase process do you lose them?)&lt;/li&gt;&lt;li&gt;How fast do they arrive and how fast do they activate? After one page view or visit, or 20 of either?&lt;/li&gt;&lt;li&gt;How much does each acquisition and activation cost?&lt;/li&gt;&lt;li&gt;How good are the customers who are being acquired? Active users/spenders who return again and again or visitors with no &#8220;stickiness&#8221; at all?&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;For consistency&#8217;s sake, consider organizing the metrics the way the sales funnel is organized&#8212;by acquisition and activation metrics. For example: &lt;br/&gt;Acquisition metrics: &lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Total number of visits by visitor type, time of day, and source, and page views per visit&lt;/li&gt;&lt;li&gt;Paid and referred traffic conversion rates by source (how many links or banners, and at what cost, to generate one visitor or user) and cost per acquired/activated user&lt;/li&gt;&lt;li&gt;Quantities and percentages of referred traffic by source&lt;/li&gt;&lt;li&gt;Unique behaviors or actions of subsets or segments of the customer universe I know I&#8217;m wasting half of my ad budget. I only wish I knew which half&#8230;&lt;/li&gt;&lt;li&gt;Activation metrics&lt;/li&gt;&lt;li&gt;Total number of activations: another percentage of hourly/daily/weekly acquisitions&lt;/li&gt;&lt;li&gt;Number/percentage of activations, tracked back to the original source&lt;/li&gt;&lt;li&gt;Number/percentage/cost per activation, based on quality (heavy users and big spenders or modest spenders and inactive users?), wherever identifiable, preferably by source&lt;/li&gt;&lt;li&gt;Number of visits, page views, referrals per activated user, by source and by cost&lt;/li&gt;&lt;li&gt;Your startup&#8217;s future lies in its customer acquisition, activation and retention data. This is so important that many web businesses actually display their real-time site-performance data on a jumbo flat-screen monitor in the office so that it&#8217;s always the center of attention. Off-the-shelf dashboard systems are available, and home-grown solutions are readily built using tools as simple as Excel.&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent != null ? parent.toggleItem('LinkedDocument') : toggleItem('LinkedDocument');" id="LinkedDocumentTitle">Linked Document</li>
+			<li onClick="parent != null ? parent.toggleItem('AssociationsTo') : toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent != null ? parent.toggleItem('CustomProperties') : toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent != null ? parent.toggleItem('Links') : toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="LinkedDocumentTable">
+			<iframe src="../../../../../../../linkdocs/EAID_48437ABE_76C1_4fec_8DE0_6051D8334978.htm" frameborder="0" id="linkDocIFrame"></iframe>
+		</div>
+		<div class="ItemBody" id="AssociationsToTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA2006.htm">Get Ready To Sell</a><br />
+						Activity &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink945" /></button>Details:
+							<div id="detailsDIVLink945" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isReadOnly:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA2006.htm">Get Ready To Sell</a></td>
+					<td width="10%" class="TableRow" valign="top">Activity</td>
+					<td width="10%" class="TableRow" valign="top">Strong</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

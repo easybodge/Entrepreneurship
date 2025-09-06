@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.20.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA20/EA4/EA880.htm", "182.png", "456", "0", "", "CompositeStructure diagram0","{D8656FC6-8660-4379-8AF8-1DB87F98BC9D}");
+tocTab[tocTab.length] = new Array("0.8.20.4:2", "", "a is second moe", "EARoot/EA8/EA20/EA4/EA883.htm", "118.png", "E4851", "0", "", "Part0","{B3BFD9EC-027A-4597-8ECF-862A158C6349}");
+tocTab[tocTab.length] = new Array("0.8.20.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA20/EA4/EA884.htm", "118.png", "E4849", "0", "", "Part0","{8308A443-91CD-4a59-91A4-083091E82D35}");
+tocTab[tocTab.length] = new Array("0.8.20.4:4", "", "q is third moe", "EARoot/EA8/EA20/EA4/EA885.htm", "118.png", "E4852", "0", "", "Part0","{4C4AF887-5C20-43ab-ADB9-C6AC7CE3D361}");
+tocTab[tocTab.length] = new Array("0.8.20.4:5", "", "this is first moe", "EARoot/EA8/EA20/EA4/EA886.htm", "118.png", "E4850", "0", "", "Part0","{C9092A62-330E-44f1-AA04-9932A4107AFF}");
+tocTab[tocTab.length] = new Array("0.8.20.4:6", "", "Port4", "EARoot/EA8/EA20/EA4/EA887.htm", "95.png", "E4856", "E4849", "", "Port0","{08DC4D42-6ACF-42cf-AC6E-8B056CFD01BA}");
+tocTab[tocTab.length] = new Array("0.8.20.4:7", "", "Port5", "EARoot/EA8/EA20/EA4/EA888.htm", "95.png", "E4857", "E4849", "", "Port0","{466247BB-C43D-4523-B5E0-811D57ABB4C1}");
+tocTab[tocTab.length] = new Array("0.8.20.4:8", "", "Port6", "EARoot/EA8/EA20/EA4/EA889.htm", "95.png", "E4858", "E4849", "", "Port0","{3AC20252-6C22-424e-A12D-E86A930E1A5A}");
+tocTab[tocTab.length] = new Array("0.8.20.4:9", "", "Port1", "EARoot/EA8/EA20/EA4/EA890.htm", "95.png", "E4853", "E4850", "", "Port0","{2B0B7089-824C-44ac-9D1D-B3C6CEC0226F}");
+tocTab[tocTab.length] = new Array("0.8.20.4:10", "", "Port2", "EARoot/EA8/EA20/EA4/EA891.htm", "95.png", "E4854", "E4851", "", "Port0","{AC4D7800-9BEB-4fed-92A0-D0F1F1647A9F}");
+tocTab[tocTab.length] = new Array("0.8.20.4:11", "", "Port3", "EARoot/EA8/EA20/EA4/EA892.htm", "95.png", "E4855", "E4852", "", "Port0","{D1513E5D-D542-4794-BD28-61F7646E070A}");

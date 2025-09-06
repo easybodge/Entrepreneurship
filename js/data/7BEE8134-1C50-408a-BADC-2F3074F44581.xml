@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.5.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA5/EA4/EA324.htm", "182.png", "442", "0", "", "CompositeStructure diagram0","{CB44B52B-1089-4ebd-A7A8-558CEAB1326E}");
+tocTab[tocTab.length] = new Array("0.8.5.4:2", "", "a is second moe", "EARoot/EA8/EA5/EA4/EA327.htm", "118.png", "E4641", "0", "", "Part0","{341FCE98-5384-451b-BE01-2821BDB037AD}");
+tocTab[tocTab.length] = new Array("0.8.5.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA5/EA4/EA328.htm", "118.png", "E4639", "0", "", "Part0","{136285AB-6B9B-40c9-97E3-F8C6334C7F21}");
+tocTab[tocTab.length] = new Array("0.8.5.4:4", "", "q is third moe", "EARoot/EA8/EA5/EA4/EA329.htm", "118.png", "E4642", "0", "", "Part0","{2D85A577-6E00-4055-B7DA-B2BA45BB0CAC}");
+tocTab[tocTab.length] = new Array("0.8.5.4:5", "", "this is first moe", "EARoot/EA8/EA5/EA4/EA330.htm", "118.png", "E4640", "0", "", "Part0","{9FEF6E86-A218-49e6-9D7B-2BC01027DF39}");
+tocTab[tocTab.length] = new Array("0.8.5.4:6", "", "Port4", "EARoot/EA8/EA5/EA4/EA331.htm", "95.png", "E4646", "E4639", "", "Port0","{34B0358B-E364-4a04-9A42-487A7D27902C}");
+tocTab[tocTab.length] = new Array("0.8.5.4:7", "", "Port5", "EARoot/EA8/EA5/EA4/EA332.htm", "95.png", "E4647", "E4639", "", "Port0","{632B27DF-9F9C-4d61-9D22-CDBC2A9E0FAE}");
+tocTab[tocTab.length] = new Array("0.8.5.4:8", "", "Port6", "EARoot/EA8/EA5/EA4/EA333.htm", "95.png", "E4648", "E4639", "", "Port0","{109BB60E-1233-43c9-BE14-934C65259F46}");
+tocTab[tocTab.length] = new Array("0.8.5.4:9", "", "Port1", "EARoot/EA8/EA5/EA4/EA334.htm", "95.png", "E4643", "E4640", "", "Port0","{7111E369-BC67-4209-9043-E03936EF40A0}");
+tocTab[tocTab.length] = new Array("0.8.5.4:10", "", "Port2", "EARoot/EA8/EA5/EA4/EA335.htm", "95.png", "E4644", "E4641", "", "Port0","{AA09F852-1AB8-416a-9D83-1558A800F71C}");
+tocTab[tocTab.length] = new Array("0.8.5.4:11", "", "Port3", "EARoot/EA8/EA5/EA4/EA336.htm", "95.png", "E4645", "E4642", "", "Port0","{182950ED-2766-4838-A855-8FB4BA4A8449}");

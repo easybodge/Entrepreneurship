@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.18.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA18/EA4/EA785.htm", "182.png", "474", "0", "", "CompositeStructure diagram0","{5AF70B2E-364D-457c-A113-6713031930BA}");
+tocTab[tocTab.length] = new Array("0.8.18.4:2", "", "a is second moe", "EARoot/EA8/EA18/EA4/EA788.htm", "118.png", "E5125", "0", "", "Part0","{99DE16E3-5F12-4d2c-9A28-F0009D5F6613}");
+tocTab[tocTab.length] = new Array("0.8.18.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA18/EA4/EA789.htm", "118.png", "E5123", "0", "", "Part0","{A50C7953-9DBA-477e-99B9-5D344C5EF9CE}");
+tocTab[tocTab.length] = new Array("0.8.18.4:4", "", "q is third moe", "EARoot/EA8/EA18/EA4/EA790.htm", "118.png", "E5126", "0", "", "Part0","{3B43933A-8706-43b1-A9AF-AE447782EC18}");
+tocTab[tocTab.length] = new Array("0.8.18.4:5", "", "this is first moe", "EARoot/EA8/EA18/EA4/EA791.htm", "118.png", "E5124", "0", "", "Part0","{CF2ECEBD-6CE5-4bd9-B79E-3DB04711EAA0}");
+tocTab[tocTab.length] = new Array("0.8.18.4:6", "", "Port4", "EARoot/EA8/EA18/EA4/EA792.htm", "95.png", "E5130", "E5123", "", "Port0","{3A66A2C0-E6BF-4a19-8669-86EF5A5E9085}");
+tocTab[tocTab.length] = new Array("0.8.18.4:7", "", "Port5", "EARoot/EA8/EA18/EA4/EA793.htm", "95.png", "E5131", "E5123", "", "Port0","{ECA1CC4C-F28B-4fb5-8D7D-95BCC3AC435C}");
+tocTab[tocTab.length] = new Array("0.8.18.4:8", "", "Port6", "EARoot/EA8/EA18/EA4/EA794.htm", "95.png", "E5132", "E5123", "", "Port0","{7339AB3D-01BD-4e8b-A210-62C08C38C129}");
+tocTab[tocTab.length] = new Array("0.8.18.4:9", "", "Port1", "EARoot/EA8/EA18/EA4/EA795.htm", "95.png", "E5127", "E5124", "", "Port0","{A8538B64-5F52-4c51-A1D7-4B1CABEEA81E}");
+tocTab[tocTab.length] = new Array("0.8.18.4:10", "", "Port2", "EARoot/EA8/EA18/EA4/EA796.htm", "95.png", "E5128", "E5125", "", "Port0","{5755C168-C733-4b1d-9A6A-70B507FF88CC}");
+tocTab[tocTab.length] = new Array("0.8.18.4:11", "", "Port3", "EARoot/EA8/EA18/EA4/EA797.htm", "95.png", "E5129", "E5126", "", "Port0","{F095AC31-D87A-4a4e-9A62-570B7B359DFB}");

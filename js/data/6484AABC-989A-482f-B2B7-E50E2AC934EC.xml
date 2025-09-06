@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.5.2.1", "1", "Ant-SDR", "EARoot/EA5/EA2/EA1/EA52.htm", "4.png", "", "", "{871767AB-43DC-43c6-88A8-25A7083E824A}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.2", "1", "USRP", "EARoot/EA5/EA2/EA2/EA106.htm", "4.png", "", "", "{8C333FE4-70FD-4461-8B10-1BDA54C16BFE}", "Package");

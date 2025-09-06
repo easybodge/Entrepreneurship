@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>R11.5.2- IPO Process and Insights</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> R11.5.2- IPO Process and Insights </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../EA1.htm">Domain</a> / <a href="../../../EA136.htm">Business Ingredients & Building Block</a> / <a href="../../EA1658.htm">Courses & Training</a> / <a href="../EA3837.htm">Secrets of Sandhill Road</a> / <a href="EA3866.htm">Requirements</a> / <a href="EA3877.htm">R11-Exist</a> / <a href="EA3963.htm">R11.5- IPO Process</a> / <a href="EA3970.htm">R11.5.2- IPO Process and Insights</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<a href="EA3963.htm">R11.5- IPO Process</a></ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">R11.5.2- IPO Process and Insights  : Public  &lt;&lt;requirement&gt;&gt; Requirement</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">05/09/2025 16:31:24</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">05/09/2025 17:09:42</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">k_war</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue">Medium</td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue">Medium</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{51949AEF-C518-490e-98A0-9768D8FA16DA}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA3862.htm">R11- Exit</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">IPO is not the &#8220;end&#8221; but a financing event:&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Going public is just another fundraising round, except the investors are the public markets instead of VCs.&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;The company still needs to grow, deliver returns, and be accountable.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Why IPO?&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Access to a much larger pool of capital than private markets.&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Liquidity for existing shareholders (though usually with lock-up periods).&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Branding and credibility boost with customers, partners, and talent.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;VC perspective:&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;IPO is one of the main &#8220;liquidity events&#8221; to return money to their limited partners (LPs).&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;VCs don&#8217;t always sell immediately &#8212; many are subject to lock-ups too.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Eligibility / readiness factors:&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Requires strong governance and financial reporting discipline (must operate like a public company well before listing).&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Market appetite matters &#8212; not just company readiness.&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;You must be able to &#8220;tell your story&#8221; convincingly to public investors (clear growth trajectory, profitability path, competitive moat).&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;The IPO process itself:&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Hire underwriters (investment banks) to manage pricing, book-building, and marketing.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Draft S-1 registration statement with SEC (detailed disclosures on business, financials, risk factors).&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Do a &#8220;roadshow&#8221; &#8212; management pitches to institutional investors.&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Set final pricing and allocation of shares.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Lock-up periods:&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Typically 180 days when insiders/VCs cannot sell.&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Designed to prevent a flood of shares from crashing the price.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Valuation dynamics:&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;The IPO price is not set by VCs or founders but by investment banks + market demand.&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Companies often &#8220;leave money on the table&#8221; (price below true demand) to ensure first-day pop and build goodwill with investors.&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;This can frustrate founders/VCs but is common practice.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;Alternatives to traditional IPO:&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Direct listings (skip underwriters, no capital raised, just provide liquidity).&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Mergers with special purpose acquisition companies (SPACs).&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Each has trade-offs in terms of cost, control, and market signaling.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;After IPO &#8211; life changes:&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;Heavy compliance: quarterly reporting, Sarbanes-Oxley, SEC scrutiny.&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Management time shifts from building product to managing investors/analysts.&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;Stock price becomes a daily report card &#8212; volatility is inevitable.&lt;/li&gt;&lt;/ul&gt;<br />&lt;br/&gt;For founders:&lt;br/&gt;&lt;br/&gt;&lt;ul&gt;<br />&lt;li&gt;IPO should be pursued only when it aligns with long-term strategy, not just as an &#8220;exit.&#8221;&lt;/li&gt;&lt;/ul&gt;<br />&lt;ul&gt;<br />&lt;li&gt;It&#8217;s about building a durable, independent company with public market support.&lt;/li&gt;&lt;/ul&gt;&lt;p/&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent != null ? parent.toggleItem('CustomProperties') : toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent != null ? parent.toggleItem('Links') : toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="CustomPropertiesTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
+				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
+
+			</table>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA3963.htm">«requirement» R11.5- IPO Process</a></td>
+					<td width="10%" class="TableRow" valign="top">Requirement</td>
+					<td width="10%" class="TableRow" valign="top">Nesting</td>
+					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

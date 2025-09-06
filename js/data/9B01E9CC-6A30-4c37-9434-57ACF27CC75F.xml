@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.8.39.1", "1", "FastTrack-70% Advance", "EARoot/EA8/EA39/EA1/EA1323.htm", "4.png", "", "", "{7552F468-5EA8-4a8d-B924-601C556E724C}", "Package");
+tocTab[tocTab.length] = new Array("0.8.39.2", "1", "Grants - Contract For Innovation", "EARoot/EA8/EA39/EA2/EA1447.htm", "4.png", "", "", "{EDB93A8B-2288-45be-A6CD-05890C45AFC8}", "Package");
+tocTab[tocTab.length] = new Array("0.8.39.3", "", "SFC Capital", "EARoot/EA8/EA39/EA3/EA1657.htm", "4.png", "", "", "{DEE22995-DC62-45c1-92D9-3541D20BDEF2}", "Package");

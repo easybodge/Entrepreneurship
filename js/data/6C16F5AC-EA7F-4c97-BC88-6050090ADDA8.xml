@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.8.40.5.3.1", "", "Term Sheets", "EARoot/EA8/EA40/EA5/EA3/EA1/EA3998.htm", "4.png", "", "", "{7C7F6A26-CE8B-40dc-8F1D-0C3B5DFCC17B}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.5.3.2", "1", "VCs Investment Decision", "EARoot/EA8/EA40/EA5/EA3/EA2/EA4003.htm", "4.png", "", "", "{88FDCB1C-57ED-4695-A7CE-0704B6D6C91F}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.5.3.3", "1", "What are LPs", "EARoot/EA8/EA40/EA5/EA3/EA3/EA4016.htm", "4.png", "", "", "{4E3F44FA-4717-4381-8262-70A088056493}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.5.3.4", "1", "How LPs team with VCs", "EARoot/EA8/EA40/EA5/EA3/EA4/EA4041.htm", "4.png", "", "", "{E343A7BB-354D-4bc9-AF9A-B99972662134}", "Package");

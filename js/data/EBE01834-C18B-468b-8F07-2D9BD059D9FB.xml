@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.8.40.1.4.2.1", "1", "P1- Get Ready to Launch", "EARoot/EA8/EA40/EA1/EA4/EA2/EA1/EA2299.htm", "4.png", "", "", "{7DFCE3AB-FAF1-4183-86B7-E527D4E33108}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.1.4.2.2", "1", "P2- Position the Company & Product", "EARoot/EA8/EA40/EA1/EA4/EA2/EA2/EA2355.htm", "4.png", "", "", "{E51CC369-6A41-431f-B030-E9F4A7A67CD0}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.1.4.2.3", "1", "P3- Launch the company and product", "EARoot/EA8/EA40/EA1/EA4/EA2/EA3/EA2377.htm", "4.png", "", "", "{08122BBC-D508-433b-9686-CB65593F204B}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.1.4.2.4", "1", "P4- Create Demand", "EARoot/EA8/EA40/EA1/EA4/EA2/EA4/EA2415.htm", "4.png", "", "", "{117E749F-7D9B-4a49-8D8E-B0AF7F0D9871}", "Package");

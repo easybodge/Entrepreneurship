@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.10.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA10/EA4/EA524.htm", "182.png", "446", "0", "", "CompositeStructure diagram0","{C6EE5B4E-9A61-4b0c-851C-F4D1CED874F7}");
+tocTab[tocTab.length] = new Array("0.8.10.4:2", "", "a is second moe", "EARoot/EA8/EA10/EA4/EA527.htm", "118.png", "E4701", "0", "", "Part0","{1B383080-71DB-4a7e-BE90-E7F5D7D2E3DC}");
+tocTab[tocTab.length] = new Array("0.8.10.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA10/EA4/EA528.htm", "118.png", "E4699", "0", "", "Part0","{B12738E1-FB58-4a02-9249-6551FD7AA930}");
+tocTab[tocTab.length] = new Array("0.8.10.4:4", "", "q is third moe", "EARoot/EA8/EA10/EA4/EA529.htm", "118.png", "E4702", "0", "", "Part0","{722EF726-737E-41b7-918F-75FF6972E027}");
+tocTab[tocTab.length] = new Array("0.8.10.4:5", "", "this is first moe", "EARoot/EA8/EA10/EA4/EA530.htm", "118.png", "E4700", "0", "", "Part0","{B4B4A725-B8C5-40fd-B494-7F5D0DBE4C84}");
+tocTab[tocTab.length] = new Array("0.8.10.4:6", "", "Port4", "EARoot/EA8/EA10/EA4/EA531.htm", "95.png", "E4706", "E4699", "", "Port0","{AE0C1A17-497A-41f8-97D9-9E923E239876}");
+tocTab[tocTab.length] = new Array("0.8.10.4:7", "", "Port5", "EARoot/EA8/EA10/EA4/EA532.htm", "95.png", "E4707", "E4699", "", "Port0","{059EFA9F-671D-4395-B78C-35A683ADDD86}");
+tocTab[tocTab.length] = new Array("0.8.10.4:8", "", "Port6", "EARoot/EA8/EA10/EA4/EA533.htm", "95.png", "E4708", "E4699", "", "Port0","{E1B1D573-F748-4051-A0B1-109F2A9AB066}");
+tocTab[tocTab.length] = new Array("0.8.10.4:9", "", "Port1", "EARoot/EA8/EA10/EA4/EA534.htm", "95.png", "E4703", "E4700", "", "Port0","{43D26B91-17AD-4398-BE4E-810ED20F1EE9}");
+tocTab[tocTab.length] = new Array("0.8.10.4:10", "", "Port2", "EARoot/EA8/EA10/EA4/EA535.htm", "95.png", "E4704", "E4701", "", "Port0","{87A220DB-3F22-4801-A720-3E49575529AA}");
+tocTab[tocTab.length] = new Array("0.8.10.4:11", "", "Port3", "EARoot/EA8/EA10/EA4/EA536.htm", "95.png", "E4705", "E4702", "", "Port0","{87C88794-F59F-4af8-80A8-C95D7991865A}");

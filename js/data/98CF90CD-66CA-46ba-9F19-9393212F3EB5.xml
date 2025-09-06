@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.12.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA12/EA4/EA614.htm", "182.png", "449", "0", "", "CompositeStructure diagram0","{845DBC5A-7F66-46c6-90A0-0B8C01824911}");
+tocTab[tocTab.length] = new Array("0.8.12.4:2", "", "a is second moe", "EARoot/EA8/EA12/EA4/EA617.htm", "118.png", "E4746", "0", "", "Part0","{C7DB74B8-1F73-4e3c-A901-A3518B077BD5}");
+tocTab[tocTab.length] = new Array("0.8.12.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA12/EA4/EA618.htm", "118.png", "E4744", "0", "", "Part0","{E14EF134-DEAC-42b3-BB9B-1EAC5704FB09}");
+tocTab[tocTab.length] = new Array("0.8.12.4:4", "", "q is third moe", "EARoot/EA8/EA12/EA4/EA619.htm", "118.png", "E4747", "0", "", "Part0","{250AC08E-56FC-4254-B132-44BCFA582ED9}");
+tocTab[tocTab.length] = new Array("0.8.12.4:5", "", "this is first moe", "EARoot/EA8/EA12/EA4/EA620.htm", "118.png", "E4745", "0", "", "Part0","{F866A3EB-58E0-48a2-A38D-5DF27DFB42F9}");
+tocTab[tocTab.length] = new Array("0.8.12.4:6", "", "Port4", "EARoot/EA8/EA12/EA4/EA621.htm", "95.png", "E4751", "E4744", "", "Port0","{68BCF39C-7C0B-4bc1-9F5D-04652E2FADF3}");
+tocTab[tocTab.length] = new Array("0.8.12.4:7", "", "Port5", "EARoot/EA8/EA12/EA4/EA622.htm", "95.png", "E4752", "E4744", "", "Port0","{866A645F-287F-48c3-AF6E-523E215DF221}");
+tocTab[tocTab.length] = new Array("0.8.12.4:8", "", "Port6", "EARoot/EA8/EA12/EA4/EA623.htm", "95.png", "E4753", "E4744", "", "Port0","{2D03017F-C64C-4301-B974-D93F4BC18B83}");
+tocTab[tocTab.length] = new Array("0.8.12.4:9", "", "Port1", "EARoot/EA8/EA12/EA4/EA624.htm", "95.png", "E4748", "E4745", "", "Port0","{20435823-02A6-441a-82FB-9FB19EE4FAB1}");
+tocTab[tocTab.length] = new Array("0.8.12.4:10", "", "Port2", "EARoot/EA8/EA12/EA4/EA625.htm", "95.png", "E4749", "E4746", "", "Port0","{249629E6-AF24-417a-A430-F11102F64601}");
+tocTab[tocTab.length] = new Array("0.8.12.4:11", "", "Port3", "EARoot/EA8/EA12/EA4/EA626.htm", "95.png", "E4750", "E4747", "", "Port0","{E79A682C-BD18-42ba-8DBA-6640334A7F7D}");

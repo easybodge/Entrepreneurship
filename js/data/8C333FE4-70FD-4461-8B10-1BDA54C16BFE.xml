@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.5.2.2:2", "", "Installing UHD Drivers", "EARoot/EA5/EA2/EA2/EA107.htm", "21.png", "E2940", "0", "", "Activity0","{13A99453-C2F1-4ed2-A2B4-E1B9DE99FF8A}");
+tocTab[tocTab.length] = new Array("0.5.2.2:1", "", "Installing UHD Drivers", "EARoot/EA5/EA2/EA2/EA104.htm", "181.png", "326", "E2940", "", "Activity diagram0","{790006B9-CF08-4a53-B8A0-EBD5A83E05E9}");
+tocTab[tocTab.length] = new Array("0.5.2.2:3", "", "Clone UHD repository", "EARoot/EA5/EA2/EA2/EA108.htm", "104.png", "E2993", "E2940", "", "Action0","{A519B945-F5D3-4212-857E-F666EA2D1B25}");
+tocTab[tocTab.length] = new Array("0.5.2.2:4", "", "execute cmake build, install etc", "EARoot/EA5/EA2/EA2/EA109.htm", "104.png", "E3015", "E2940", "", "Action0","{E4B70586-CC93-4a4b-AA76-057B2867094C}");
+tocTab[tocTab.length] = new Array("0.5.2.2:5", "", "install pre-requisites", "EARoot/EA5/EA2/EA2/EA110.htm", "104.png", "E3002", "E2940", "", "Action0","{C110F359-4615-4dfc-9EE2-8693186FEF0B}");

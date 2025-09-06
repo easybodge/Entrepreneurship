@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.40.1.7.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA40/EA1/EA7/EA4/EA2551.htm", "182.png", "501", "0", "", "CompositeStructure diagram0","{25CE8A34-1975-47db-8E17-143FE0460545}");
+tocTab[tocTab.length] = new Array("0.8.40.1.7.4:2", "", "a is second moe", "EARoot/EA8/EA40/EA1/EA7/EA4/EA2554.htm", "118.png", "E5528", "0", "", "Part0","{142C39B1-FC9B-4710-BA69-478DE295A63F}");
+tocTab[tocTab.length] = new Array("0.8.40.1.7.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA40/EA1/EA7/EA4/EA2555.htm", "118.png", "E5526", "0", "", "Part0","{56DF61A3-044E-4c7c-AD20-05340189FD8A}");
+tocTab[tocTab.length] = new Array("0.8.40.1.7.4:4", "", "q is third moe", "EARoot/EA8/EA40/EA1/EA7/EA4/EA2556.htm", "118.png", "E5529", "0", "", "Part0","{C53C251A-A5AB-47da-B0F1-0474F03B815A}");
+tocTab[tocTab.length] = new Array("0.8.40.1.7.4:5", "", "this is first moe", "EARoot/EA8/EA40/EA1/EA7/EA4/EA2557.htm", "118.png", "E5527", "0", "", "Part0","{17F89DAB-ECF5-47d1-8495-926B160D310C}");
+tocTab[tocTab.length] = new Array("0.8.40.1.7.4:6", "", "Port4", "EARoot/EA8/EA40/EA1/EA7/EA4/EA2558.htm", "95.png", "E5533", "E5526", "", "Port0","{C7F28E90-1EA4-4dfd-8355-8F112CC4ABED}");
+tocTab[tocTab.length] = new Array("0.8.40.1.7.4:7", "", "Port5", "EARoot/EA8/EA40/EA1/EA7/EA4/EA2559.htm", "95.png", "E5534", "E5526", "", "Port0","{B8F655A4-BF89-4f05-BC9B-73D4821A81DD}");
+tocTab[tocTab.length] = new Array("0.8.40.1.7.4:8", "", "Port6", "EARoot/EA8/EA40/EA1/EA7/EA4/EA2560.htm", "95.png", "E5535", "E5526", "", "Port0","{F173E9A6-ECF4-4e79-BB30-BC594191AE16}");
+tocTab[tocTab.length] = new Array("0.8.40.1.7.4:9", "", "Port1", "EARoot/EA8/EA40/EA1/EA7/EA4/EA2561.htm", "95.png", "E5530", "E5527", "", "Port0","{6E4D4003-D3F8-46a5-91E2-B2D3CDE71936}");
+tocTab[tocTab.length] = new Array("0.8.40.1.7.4:10", "", "Port2", "EARoot/EA8/EA40/EA1/EA7/EA4/EA2562.htm", "95.png", "E5531", "E5528", "", "Port0","{FBEC7A4E-0700-40dd-BA10-F20ACABCDEF9}");
+tocTab[tocTab.length] = new Array("0.8.40.1.7.4:11", "", "Port3", "EARoot/EA8/EA40/EA1/EA7/EA4/EA2563.htm", "95.png", "E5532", "E5529", "", "Port0","{125FEFDA-98DE-4d15-858F-EE2721A20CB9}");

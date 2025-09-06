@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.8.40.1.2.2.1", "1", "P1- Get Read to sell", "EARoot/EA8/EA40/EA1/EA2/EA2/EA1/EA1982.htm", "4.png", "", "", "{3BA2CBFD-0C60-48a0-80E2-13CA9604F9FB}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.1.2.2.2", "1", "P2- Get Out And Sell", "EARoot/EA8/EA40/EA1/EA2/EA2/EA2/EA2078.htm", "4.png", "", "", "{B61765FA-B722-40ac-997E-A0494E783844}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.1.2.2.3", "1", "P3- Product Developing and Company Positioning", "EARoot/EA8/EA40/EA1/EA2/EA2/EA3/EA2117.htm", "4.png", "", "", "{C577BC38-2D9A-4a91-B97A-C162FAABD575}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.1.2.2.4", "1", "P4- Pivot or Proceed", "EARoot/EA8/EA40/EA1/EA2/EA2/EA4/EA2136.htm", "4.png", "", "", "{791CA27C-658D-4461-99FB-4E9430565D6F}", "Package");

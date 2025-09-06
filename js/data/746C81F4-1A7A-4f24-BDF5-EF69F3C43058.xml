@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.8.40.4.1.7.1:1", "", "Requirements", "EARoot/EA8/EA40/EA4/EA1/EA7/EA1/EA3240.htm", "188.png", "364", "0", "", "Custom diagram0","{1750BAF2-D5DE-4ca4-9C65-94F2BC3990AA}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.7.1:2", "", "MR-MP1 Marketing Plan Scope", "EARoot/EA8/EA40/EA4/EA1/EA7/EA1/EA3243.htm", "19.png", "E3550", "0", "", "Requirement0","{4CD24E11-3F3D-4eab-A0A4-D305DC5027DE}");
+tocTab[tocTab.length] = new Array("0.8.40.4.1.7.1:3", "", "MR-MP2 Positioning Statement", "EARoot/EA8/EA40/EA4/EA1/EA7/EA1/EA3244.htm", "19.png", "E3651", "0", "", "Requirement0","{97372DF6-370B-46e5-8F5C-762B716FE40D}");

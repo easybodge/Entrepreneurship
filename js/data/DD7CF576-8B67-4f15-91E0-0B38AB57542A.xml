@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.8.8.1", "", "Requirements", "EARoot/EA8/EA8/EA1/EA435.htm", "4.png", "", "", "{88542A06-A074-4e59-9B10-715B0BDA2AF1}", "Package");
+tocTab[tocTab.length] = new Array("0.8.8.2", "", "Behaviour", "EARoot/EA8/EA8/EA2/EA436.htm", "4.png", "", "", "{4BE6D9EC-4719-48e0-AE45-58A033028F6F}", "Package");
+tocTab[tocTab.length] = new Array("0.8.8.3", "", "Structure", "EARoot/EA8/EA8/EA3/EA437.htm", "4.png", "", "", "{D4FE38BA-09B7-49b3-B1D1-55580673D286}", "Package");
+tocTab[tocTab.length] = new Array("0.8.8.4", "1", "Metrics, KPI and MoEs", "EARoot/EA8/EA8/EA4/EA440.htm", "4.png", "", "", "{A7F5E364-36D4-4601-9C0E-F110CEBD86D8}", "Package");

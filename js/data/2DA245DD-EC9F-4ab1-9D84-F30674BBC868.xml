@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.31.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA31/EA4/EA1118.htm", "182.png", "467", "0", "", "CompositeStructure diagram0","{87DCA8F1-7C4C-459e-BBFE-58D030C5327C}");
+tocTab[tocTab.length] = new Array("0.8.31.4:2", "", "a is second moe", "EARoot/EA8/EA31/EA4/EA1121.htm", "118.png", "E5016", "0", "", "Part0","{16FE40AC-3F4A-46c7-99A9-430CFA43B483}");
+tocTab[tocTab.length] = new Array("0.8.31.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA31/EA4/EA1122.htm", "118.png", "E5014", "0", "", "Part0","{2A127E46-0614-48ca-8EDC-2E2FB2B409E6}");
+tocTab[tocTab.length] = new Array("0.8.31.4:4", "", "q is third moe", "EARoot/EA8/EA31/EA4/EA1123.htm", "118.png", "E5017", "0", "", "Part0","{490BC2CF-8EAB-4cbc-95EA-B64D83DF523E}");
+tocTab[tocTab.length] = new Array("0.8.31.4:5", "", "this is first moe", "EARoot/EA8/EA31/EA4/EA1124.htm", "118.png", "E5015", "0", "", "Part0","{D1722221-3B36-44cb-AD0B-70C70E06B8DE}");
+tocTab[tocTab.length] = new Array("0.8.31.4:6", "", "Port4", "EARoot/EA8/EA31/EA4/EA1125.htm", "95.png", "E5021", "E5014", "", "Port0","{53D089FE-20CF-43e2-9906-497A51CD8BBA}");
+tocTab[tocTab.length] = new Array("0.8.31.4:7", "", "Port5", "EARoot/EA8/EA31/EA4/EA1126.htm", "95.png", "E5022", "E5014", "", "Port0","{68577C00-3E64-492e-964A-867E04A0C192}");
+tocTab[tocTab.length] = new Array("0.8.31.4:8", "", "Port6", "EARoot/EA8/EA31/EA4/EA1127.htm", "95.png", "E5023", "E5014", "", "Port0","{791C4867-9903-4225-B859-585294241C53}");
+tocTab[tocTab.length] = new Array("0.8.31.4:9", "", "Port1", "EARoot/EA8/EA31/EA4/EA1128.htm", "95.png", "E5018", "E5015", "", "Port0","{B709AB71-14F0-4cff-9A50-554F1349CE99}");
+tocTab[tocTab.length] = new Array("0.8.31.4:10", "", "Port2", "EARoot/EA8/EA31/EA4/EA1129.htm", "95.png", "E5019", "E5016", "", "Port0","{90478B5D-E8E7-4d94-BA40-F1E359B11F2F}");
+tocTab[tocTab.length] = new Array("0.8.31.4:11", "", "Port3", "EARoot/EA8/EA31/EA4/EA1130.htm", "95.png", "E5020", "E5017", "", "Port0","{5F22EA7C-7C7E-4eb6-933C-B9CB88053860}");

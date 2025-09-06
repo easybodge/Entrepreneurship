@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("0.8.40.1", "1", "Steve Blank - Owner&#39;s Manual", "EARoot/EA8/EA40/EA1/EA1669.htm", "4.png", "", "", "{99F09EF2-B02A-45ca-8BD0-9F9D0D6F8FA5}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.2", "1", "James Green - first step in entrepreneurship", "EARoot/EA8/EA40/EA2/EA2564.htm", "4.png", "", "", "{FDC097B7-C792-4d68-A5D6-C8578111AF2B}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.3", "1", "Thomas Mierzwa - Idea to Marketplace", "EARoot/EA8/EA40/EA3/EA2658.htm", "4.png", "", "", "{6E0856B0-F2BD-4b6e-B5B8-2988D515C26D}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.4", "1", "Michael Pratt - raising funds", "EARoot/EA8/EA40/EA4/EA2895.htm", "4.png", "", "", "{512036EE-BE8D-49ba-BB9E-F9D0D21AF24E}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.5", "1", "Secrets of Sandhill Road", "EARoot/EA8/EA40/EA5/EA3837.htm", "4.png", "", "", "{1DCAC8F9-CE96-483a-ABDC-5D88A4F4FC50}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.6", "", "Venture Deals by Brad Feld", "EARoot/EA8/EA40/EA6/EA4060.htm", "4.png", "", "", "{ACAE8264-8096-4812-85EB-6682C341412D}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.7", "", "Business of venture capital - Mehandra Ramsinghai", "EARoot/EA8/EA40/EA7/EA4061.htm", "4.png", "", "", "{76E16645-DDC5-48a3-9FF6-66C85A969BEB}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.8", "", "Patents Pending - John Ferrell", "EARoot/EA8/EA40/EA8/EA4062.htm", "4.png", "", "", "{FB6EB92D-DDBB-4a09-BCBE-77D7E1EA4F46}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.9", "", "1- Grants", "EARoot/EA8/EA40/EA9/EA4063.htm", "4.png", "", "", "{0C4321ED-F2A8-4e74-9D4F-1670A414E994}", "Package");
+tocTab[tocTab.length] = new Array("0.8.40.10", "", "2- Venture Debt", "EARoot/EA8/EA40/EA10/EA4064.htm", "4.png", "", "", "{11588AE1-9DE1-427a-A12E-FC862FD5616D}", "Package");

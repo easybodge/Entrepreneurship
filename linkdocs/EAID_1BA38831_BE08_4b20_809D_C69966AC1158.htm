@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title></title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+</head>
+<body>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt"><b>Build e200 firmware</b></span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">This document is used to describe how to compile the firmware of the e200.</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt"><br /></span></font></div><div align="left"><font face="Calibri"><span style=" font-size:11pt">Build Instructions</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">The E200 firmware is required to run UHD driver. You must run the host program on the E200 to use the 
+UHD driver to driver the E200.</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt"><br /></span></font></div><div align="left"><font face="Calibri"><span style=" font-size:11pt">Build E200 firmware</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">The driver is compiled and run on e200 device.</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt"><br /></span></font></div><div align="left"><font face="Calibri"><span style=" font-size:11pt">Install build requirements</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">sudo apt-get install git build-essential fakeroot libncurses5-dev libssl-dev ccache </span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">sudo apt-get install dfu-util u-boot-tools device-tree-compiler mtools</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">sudo apt-get install bc python cpio zip unzip rsync file wget </span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">sudo apt-get install libtinfo5 device-tree-compiler bison flex u-boot-tools</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">sudo apt-get purge gcc-arm-linux-gnueabihf</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">sudo apt-get remove libfdt-de</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Get source code and setup bash</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">git clone git@github.com:MicroPhase/antsdr_uhd.git</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">export CROSS_COMPILE=arm-linux-gnueabihf- </span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">export PATH=$PATH:/tools/Xilinx/SDK/2019.1/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin </span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">export VIVADO_SETTINGS=/tools/Xilinx/Vivado/2019.1/settings64.sh</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Build E200 firmware</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">cd antsdr_uhd/firmware</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">make</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Build Artifacts</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">After the firmware building finished,you wii see below file in the build folder.</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt"><br /></span></font></div><div align="left"><font face="Calibri"><span style=" font-size:11pt">jcc@jcc:~/work/Git-project/antsdr_uhd/firmware$ ls -AGhl build</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#24635;&#29992;&#37327; 18M</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">drwxrwxr-x 2 jcc 4.0K 10&#26376; 11 09:41 antsdr_e200</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rw-r--r-- 1 jcc 2.5M 10&#26376; 11 09:42 antsdr_e200.bit</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rw-rw-r-- 1 jcc 1.3M 10&#26376; 11 09:41 antsdr_e200.hdf</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rw-rw-r-- 1 jcc&#160;&#160; 58 10&#26376; 11 09:42 boot.bif</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rw-rw-r-- 1 jcc 503K 10&#26376; 11 09:42 BOOT.bin</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rw-rw-r-- 1 jcc&#160; 11K 10&#26376; 11 09:30 device_tree.dtb</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rwxrwxr-x 1 jcc 530K 10&#26376; 11 09:42 fsbl.elf</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rw-rw-r-- 1 jcc 511K 10&#26376; 11 09:42 ps7_init.c</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rw-rw-r-- 1 jcc 510K 10&#26376; 11 09:42 ps7_init_gpl.c</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rw-rw-r-- 1 jcc 4.2K 10&#26376; 11 09:42 ps7_init_gpl.h</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rw-rw-r-- 1 jcc 4.8K 10&#26376; 11 09:42 ps7_init.h</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rw-rw-r-- 1 jcc 2.7M 10&#26376; 11 09:42 ps7_init.html</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rw-rw-r-- 1 jcc&#160; 34K 10&#26376; 11 09:42 ps7_init.tcl</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">drwxrwxr-x 6 jcc 4.0K 10&#26376; 11 09:42 sdk</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rwxrwxr-x 1 jcc 3.4M 10&#26376; 11 09:25 u-boot.elf</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rw-rw-r-- 1 jcc 2.0K 10&#26376; 11 09:25 uboot-env.txt</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rw-rw-r-- 1 jcc 5.9M 10&#26376; 11 09:30 uImage</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Make SD card boot image</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">After the firmware building finished, you must build the SD card boot image for e200. Just type the following 
+command.</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt"><br /></span></font></div><div align="left"><font face="Calibri"><span style=" font-size:11pt">make sdimg</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">You will see the SD boot image in the build_sdimg folder. You can just copy all these filed in that folder into a 
+SD fat partition, And then extract the root file system we provided to the sd card ext4 partition.</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt"><br /></span></font></div><div align="left"><font face="Calibri"><span style=" font-size:11pt">SD card Artifacts</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">BOOT(fat32) partition</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">jcc@jcc:/media/jcc/BOOT$ ls -l</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#24635;&#29992;&#37327; 8948</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rw-r--r-- 1 jcc jcc 2516829 10&#26376; 11 10:32 antsdr_e200.bit</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rw-r--r-- 1 jcc jcc&#160; 514484 10&#26376; 11 10:32 BOOT.bin</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rw-r--r-- 1 jcc jcc&#160;&#160; 10791 10&#26376; 11 10:32 devicetree.dtb</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rw-r--r-- 1 jcc jcc&#160;&#160;&#160; 1975 10&#26376; 11 10:32 uEnv.txt</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">-rw-r--r-- 1 jcc jcc 6113952 10&#26376; 11 10:32 uImage</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">ROOTFS(ext3/4) partition</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">jcc@jcc:/media/jcc/rootfs$ ls -l</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#24635;&#29992;&#37327; 56</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">drwxr-xr-x&#160; 2 jcc&#160; jcc&#160; 4096 9&#26376;&#160; 24 10:39 bin</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">drwxr-xr-x&#160; 2 jcc&#160; jcc&#160; 4096 9&#26376;&#160; 22 16:46 boot</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">drwxr-xr-x&#160; 2 jcc&#160; jcc&#160; 4096 9&#26376;&#160; 22 16:46 dev</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">drwxr-xr-x 23 jcc&#160; jcc&#160; 4096 9&#26376;&#160; 24 16:48 etc</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">drwxr-xr-x&#160; 3 jcc&#160; jcc&#160; 4096 9&#26376;&#160; 24 10:39 home</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">drwxr-xr-x&#160; 5 jcc&#160; jcc&#160; 4096 9&#26376;&#160; 24 10:39 lib</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">drwxr-xr-x&#160; 2 jcc&#160; jcc&#160; 4096 9&#26376;&#160; 22 16:46 media</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">drwxr-xr-x&#160; 2 jcc&#160; jcc&#160; 4096 9&#26376;&#160; 24 16:21 mnt</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">dr-xr-xr-x&#160; 2 jcc&#160; jcc&#160; 4096 9&#26376;&#160; 22 16:46 proc</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">drwxr-xr-x&#160; 2 jcc&#160; jcc&#160; 4096 1&#26376;&#160;&#160; 1&#160; 1970 run</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">drwxr-xr-x&#160; 2 jcc&#160; jcc&#160; 4096 9&#26376;&#160; 24 10:39 sbin</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">dr-xr-xr-x&#160; 2 jcc&#160; jcc&#160; 4096 9&#26376;&#160; 22 16:46 sys</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">lrwxrwxrwx&#160; 1 root root&#160;&#160;&#160; 8 9&#26376;&#160; 24 16:48 tmp -&gt; /var/tmp</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">drwxr-xr-x 10 jcc&#160; jcc&#160; 4096 5&#26376;&#160; 23&#160; 2019 usr</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">drwxr-xr-x&#160; 8 jcc&#160; jcc&#160; 4096 5&#26376;&#160; 23&#160; 2019 var</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Then plug the SD card into the ANTSDR, set the jumper into SD card boot mode.</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt"><br /></span></font></div><div align="left"><font face="Calibri"><span style=" font-size:11pt">Boot information for e200 firmware</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">When e200 is powered on, you can see the following message in serial port terminal.</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt"><br /></span></font></div><div align="left"><font face="Calibri"><span style=" font-size:11pt">U-Boot e200&#160; (Oct 11 2022 - 10:17:58 +0800)</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt"><br /></span></font></div><div align="left"><font face="Calibri"><span style=" font-size:11pt">I2C:&#160;&#160; ready</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">DRAM:&#160; ECC disabled 512 MiB</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">MMC:&#160;&#160; sdhci@e0100000: 0</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">SF: Detected W25Q256 with page size 256 Bytes, erase size 4 KiB, total 32 MiB</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">*** Warning - bad CRC, using default environment</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt"><br /></span></font></div><div align="left"><font face="Calibri"><span style=" font-size:11pt">In:&#160;&#160;&#160; serial@e0000000</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Out:&#160;&#160; serial@e0000000</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Err:&#160;&#160; serial@e0000000</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Model: ANT SDR E200</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Button pressed: Using default environment</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">reading uEnv.txt</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">1975 bytes read in 15 ms (127.9 KiB/s)</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Importing environment from SD ...</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Hit any key to stop autoboot:&#160; 0 </span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Device: sdhci@e0100000</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Manufacturer ID: 89</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">OEM: 303</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Name: NCard </span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Tran Speed: 50000000</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Rd Block Len: 512</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">SD version 3.0</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">High Capacity: Yes</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Capacity: 29.1 GiB</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Bus Width: 4-bit</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Erase Group Size: 512 Bytes</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Copying Linux from SD to RAM...</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">reading antsdr_e200.bit</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">2516829 bytes read in 134 ms (17.9 MiB/s)</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160; design filename = &quot;antsdr_e200;COMPRESS=TRUE;UserID=0XFFFFFFFF;Version=2019.1&quot;</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160; part number = &quot;7z020clg400&quot;</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160; date = &quot;2022/10/11&quot;</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160; time = &quot;10:31:55&quot;</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160; bytes in bitstream = 2516708</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">zynq_align_dma_buffer: Align buffer at 100079 to 100000(swap 1)</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">reading uImage</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">6113952 bytes read in 305 ms (19.1 MiB/s)</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">reading devicetree.dtb</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">10791 bytes read in 19 ms (553.7 KiB/s)</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">## Booting kernel from Legacy Image at 02080000 ...</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160; Image Name:&#160;&#160; Linux-5.2.28-yocto-standard</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160; Image Type:&#160;&#160; ARM Linux Kernel Image (uncompressed)</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160; Data Size:&#160;&#160;&#160; 6113888 Bytes = 5.8 MiB</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160; Load Address: 00008000</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160; Entry Point:&#160; 00008000</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160; Verifying Checksum ... OK</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">## Flattened Device Tree blob at 02000000</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160; Booting using the fdt blob at 0x2000000</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160; Loading Kernel Image ... OK</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160; Loading Device Tree to 1eb1c000, end 1eb21a26 ... OK</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt"><br /></span></font></div><div align="left"><font face="Calibri"><span style=" font-size:11pt">Starting kernel ...</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">......</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">......</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">......</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">PetaLinux 2019.1 e200 /dev/ttyPS0</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt"><br /></span></font></div><div align="left"><font face="Calibri"><span style=" font-size:11pt">e200 login: </span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">Then you can input username :root password : root</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt"><br /></span></font></div><div align="left"><font face="Calibri"><span style=" font-size:11pt">root@e200:~# </span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">The e200 has an ethernet port. The default IP address for ethernet port is 192.168.1.10</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt"><br /></span></font></div><div align="left"><font face="Calibri"><span style=" font-size:11pt">root@e200:~# ifconfig </span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">eth0&#160;&#160;&#160;&#160;&#160; Link encap:Ethernet&#160; HWaddr F6:17:D8:E2:0A:DA&#160; </span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; inet addr:192.168.1.10&#160; Bcast:0.0.0.0&#160; Mask:255.255.255.0</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; UP BROADCAST RUNNING MULTICAST&#160; MTU:1500&#160; Metric:1</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; RX packets:4 errors:0 dropped:2 overruns:0 frame:0</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; TX packets:22 errors:0 dropped:0 overruns:0 carrier:0</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; collisions:0 txqueuelen:1000 </span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; RX bytes:772 (772.0 B)&#160; TX bytes:6784 (6.6 KiB)</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt"><br /></span></font></div><div align="left"><font face="Calibri"><span style=" font-size:11pt">lo&#160;&#160;&#160;&#160;&#160;&#160;&#160; Link encap:Local Loopback&#160; </span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; inet addr:127.0.0.1&#160; Mask:255.0.0.0</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; UP LOOPBACK RUNNING&#160; MTU:65536&#160; Metric:1</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; RX packets:0 errors:0 dropped:0 overruns:0 frame:0</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; TX packets:0 errors:0 dropped:0 overruns:0 carrier:0</span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; collisions:0 txqueuelen:1000 </span></font></div>
+<div align="left"><font face="Calibri"><span style=" font-size:11pt">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; RX bytes:0 (0.0 B)&#160; TX bytes:0 (0.0 B)</span></font></div>
+</body>
+</html>

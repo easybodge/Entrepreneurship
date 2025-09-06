@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.8.17.4:1", "", "Metrics, KPI and MoEs", "EARoot/EA8/EA17/EA4/EA764.htm", "182.png", "461", "0", "", "CompositeStructure diagram0","{0A9776BB-6D61-4d73-B230-B66D183EE820}");
+tocTab[tocTab.length] = new Array("0.8.17.4:2", "", "a is second moe", "EARoot/EA8/EA17/EA4/EA767.htm", "118.png", "E4926", "0", "", "Part0","{F994AE46-C188-4db7-A845-74239A117F69}");
+tocTab[tocTab.length] = new Array("0.8.17.4:3", "", "Intelligent Integrated Performance index", "EARoot/EA8/EA17/EA4/EA768.htm", "118.png", "E4924", "0", "", "Part0","{DACC8F89-FEC0-4785-BCB3-17E2E5DB3766}");
+tocTab[tocTab.length] = new Array("0.8.17.4:4", "", "q is third moe", "EARoot/EA8/EA17/EA4/EA769.htm", "118.png", "E4927", "0", "", "Part0","{0D57859F-EA26-4dfd-AD4D-729A988338F6}");
+tocTab[tocTab.length] = new Array("0.8.17.4:5", "", "this is first moe", "EARoot/EA8/EA17/EA4/EA770.htm", "118.png", "E4925", "0", "", "Part0","{7C31D35C-F2C9-42ed-80DC-7492E8D1E960}");
+tocTab[tocTab.length] = new Array("0.8.17.4:6", "", "Port4", "EARoot/EA8/EA17/EA4/EA771.htm", "95.png", "E4931", "E4924", "", "Port0","{ED364E1C-F9A0-4991-9741-F6581A0A081D}");
+tocTab[tocTab.length] = new Array("0.8.17.4:7", "", "Port5", "EARoot/EA8/EA17/EA4/EA772.htm", "95.png", "E4932", "E4924", "", "Port0","{ACE7D558-D9DC-4823-9DCC-041CF455F9F4}");
+tocTab[tocTab.length] = new Array("0.8.17.4:8", "", "Port6", "EARoot/EA8/EA17/EA4/EA773.htm", "95.png", "E4933", "E4924", "", "Port0","{D333741C-1B69-46a9-A65F-26C859AAD6B6}");
+tocTab[tocTab.length] = new Array("0.8.17.4:9", "", "Port1", "EARoot/EA8/EA17/EA4/EA774.htm", "95.png", "E4928", "E4925", "", "Port0","{7D604338-91A0-4e4e-A2A1-F8DF65485250}");
+tocTab[tocTab.length] = new Array("0.8.17.4:10", "", "Port2", "EARoot/EA8/EA17/EA4/EA775.htm", "95.png", "E4929", "E4926", "", "Port0","{3E71ECD7-7436-480b-A50D-A2400CCBF471}");
+tocTab[tocTab.length] = new Array("0.8.17.4:11", "", "Port3", "EARoot/EA8/EA17/EA4/EA776.htm", "95.png", "E4930", "E4927", "", "Port0","{CA8E8CCD-61C2-4957-AFBD-5EBCF4BE406C}");
